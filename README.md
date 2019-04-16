@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
+<head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-138454052-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-138454052-1');
+  </script>
+</head>
 
-You can use the [editor on GitHub](https://github.com/algenty/flowcharting-repository/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+# Flowcharting for Grafana
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## About
+Flowcharting is a plugin for grafana, it allows to display complex diagrams drawn with [draw.io](https://draw.io/) like :
+  * Technical architectural schema.
+  * Diagrams.
+  * Organic plans.
+  * Floorplans.
+  * ULM plan.
 
-### Markdown
+### Examples in draw.io
+<img style="border:0px;margin:0px;float:left;width:300px;height:150px;" src="images/drawio_example1.jpg"/>
+<img style="border:0px;margin:0px;float:left;width:300px;height:150px;" src="images/drawio_example2.jpg"/>
+<img style="border:0px;margin:0px;float:left;width:300px;height:150px;" src="images/drawio_example3.jpg"/>
+<img style="border:0px;margin:0px;float:left;width:300px;height:150px;" src="images/drawio_example3.jpg"/>
+<br/>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Sources : pictures search in google  
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+## Getting started
 
-- Bulleted
-- List
+## Installation
 
-1. Numbered
-2. List
+### Installation
 
-**Bold** and _Italic_ and `Code` text
+### Configuration
 
-[Link](url) and ![Image](src)
-```
+## Support or Contact
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/algenty/flowcharting-repository/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Having trouble with flowcharting ? Check out [issues](https://github.com/algenty/grafana-flowcharting/issues) or [contact support](https://github.com/contact) and we’ll help you sort it out.
