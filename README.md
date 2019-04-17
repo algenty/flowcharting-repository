@@ -27,15 +27,14 @@ Flowcharting is a plugin for grafana, it allows to display complex diagrams draw
 
 Sources : pictures search in google  
 
-
 ## Getting started
 
 ## Installation
 
 ### Installation
 
-### Configuration
+### [Configuration](./SETUP.md)
 
 ## Support or Contact
 
-Having trouble with flowcharting ? Check out [issues](https://github.com/algenty/grafana-flowcharting/issues) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Having trouble with flowcharting ? Check out [issues](https://github.com/algenty/grafana-flowcharting/issues)
