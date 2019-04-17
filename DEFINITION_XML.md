@@ -16,8 +16,8 @@ In this aera, you can view, modify or edit content with button "Edit Draw"
 
 ### Buttons
 
-  * Edit Draw : Open new window draw.io en [embed mode](https://desk.draw.io/support/solutions/articles/16000042544-how-does-embed-mode-work-)
-  * Prettify : Make xml content readable
+  * Edit Draw : Open new window draw.io in [embed mode](https://desk.draw.io/support/solutions/articles/16000042544-how-does-embed-mode-work-)
+  * Prettify : Make xml content readable.
   * Minify : Reduce xml content in one line.
   * Compress/Encode : Compress xml in ZIP/BASE64 to reduce space in db for big xml.
   * Extract/Decode : Extract compress and decode result from editor.
