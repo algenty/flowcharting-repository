@@ -5,5 +5,5 @@ Add a rule by clicking on button "Add Rule", organize your rules order with arro
 Enter rule name, for infomation. It display on header rule.
 
 ### Apply to metrics 
-Enter name of metrics or pattern for this rule
-(./images/mp_metrics_name.png)
+Enter name of metric or regular pattern of metric for this rule.
+[!alt Metric name](./images/mp_metrics_name.png)
