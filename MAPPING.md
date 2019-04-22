@@ -6,4 +6,4 @@ Enter rule name, for infomation. It display on header rule.
 
 ### Apply to metrics 
 Enter name of metric or regular pattern of metric for this rule.
-[!alt Metric name](./images/mp_metrics_name.png)
+(images/mp_metrics_name.png "Metrics name example")
