@@ -1,5 +1,5 @@
 # Avanced graph display
-(images/AVANCED_XML.png "Avanced options display")
+![Avanced options display](images/AVANCED_XML.png)
 
 ## Check box
 
