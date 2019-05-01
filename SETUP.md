@@ -15,5 +15,5 @@ Check or uncheck [options](./ADVANCED_XML.md) to adjust graph display
 ### Rules
 In this tab, define [rules to mapping metrics](./MAPPING.md) with thresholds on object of graph for :
   * Colorize
-  * Change text to display values or others
-  * Open new windows/url with link option
+  * Change value of text to display metrics.
+  * Add link according to state with params
