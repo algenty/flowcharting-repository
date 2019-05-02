@@ -39,7 +39,12 @@ Unit and Decimals: Specify unit and decimal precision for numbers.
 Value/Range to text mapping allows you to translate the value of the summary stat into explicit text. The text will respect all styling, thresholds and customization defined for the value. This can be useful to translate the number of the main shape/text value into a context-specific human-readable word or message.
 
 ### Date
-Select it if result is a timestamp, select format of date.
+Specify date format. Only available when Type is set to Date.
 
 ### Decimals
 Number of decimal to display, only for number type
+
+## Color On
+Select when color is applied :
+  - Warning/Critical : If state is OK, Shapes, arrows or text are not colored, Keep orginal color.
+  - Always : Objects defined in "Shape Mapping" are colored for each state.
