@@ -46,5 +46,5 @@ Number of decimal to display, only for number type
 
 ## Color On
 Select when color is applied :
-  - Warning/Critical : If state is OK, Shapes, arrows or text are not colored, Keep orginal color.
+  - Warning/Critical : If state is OK, Shapes, arrows or text are not colored, keep orginal color.
   - Always : Objects defined in "Shape Mapping" are colored for each state.
