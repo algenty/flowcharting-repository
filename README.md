@@ -1,12 +1,12 @@
 # Flowcharting for Grafana
 
 ## About
-Flowcharting is a plugin for grafana, it allows to display complexe diagrams draws with [draw.io](https://draw.io/) like :
-  * Technical architecture schema.
-  * Diagrams.
-  * Organic plans.
-  * Floorplans.
-  * ULM plan.  
+Flowcharting is a plugin for grafana. It aims to display complexe diagram draws with [draw.io](https://draw.io/). Few examples :
+  * Technical architecture schema
+  * Diagrams
+  * Organic plans
+  * Floorplans
+  * UML plan 
   * ...  
 
 Change color and display values in your charts according to states and levels
@@ -29,6 +29,6 @@ Change color and display values in your charts according to states and levels
 
 ## Support or Contact
 
-  - Having trouble with flowcharting ? Check out [issues](https://github.com/algenty/grafana-flowcharting/issues)
+  - Having troubles with flowcharting ? Check out [issues](https://github.com/algenty/grafana-flowcharting/issues)
   - Email : <grafana.flowcharting@gmail.com>
   - Twitter : https://twitter.com/gf_flowcharting

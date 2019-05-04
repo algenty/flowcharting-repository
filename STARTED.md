@@ -39,16 +39,16 @@ See last version in https://github.com/algenty/flowcharting-repository/tree/mast
 
 ### Flowchart definition
 
-  Firts, Flowcharting uses uniq id of objets. We need know witch is candidate of mapping values/conditions.
-  In next release the matching with object accept values and attributes.
+  First, Flowcharting uses unique id of objets. We need to know which object is candidate of mapping values/conditions.
+  In next release, the matching with object will accept values and attributes.
 
-  The ids in draw.io are generated with a number or a string, you cannot rename or only in xml but its boring and dangerous.
-  In Inspect panel, its possible to rename it. if you want to keep this id, its possible to use "mapping helper" to find the good id.
+  The ids in draw.io are generated with a number or a string. You cannot rename, or only in xml but it's boring and dangerous.
+  In Inspect panel, it's possible to rename it. If you want to keep this id, it's possible to use "mapping helper" to find out the good id.
 
   ![Rename Id](images/inspect_rename_id_small.png)
 
-  1. Go to inspect Tab, and double click on id with the names in the table below.
-      when cursor move over id name, object in panel is selected.
+  1. Go to inspect Tab, and double click on id and rename values with the names in the table as shown below.
+      When cursor moves over id name, the object in the panel is selected.
 
       | Old ID | New Id |
       |:--:|:--:|
@@ -64,8 +64,8 @@ See last version in https://github.com/algenty/flowcharting-repository/tree/mast
       |Mb0u9kBgjuhVRU1gNTpR-11|CHILD1-LEGEND|
       |Mb0u9kBgjuhVRU1gNTpR-15|CHILD2-LEGEND|
 
-  2. Then click on button 'Apply change' or 'Reinit' to cancel change.
-      You can also replace XML content in flowchart tab with value below :)  
+  2. Then click on button 'Apply change' or 'Reinit' to cancel changes.
+      You can also replace XML content in flowchart tab with values as shown below (Only for the ones who don't want to lost their time :) ) 
 
       ```
       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
@@ -93,20 +93,20 @@ See last version in https://github.com/algenty/flowcharting-repository/tree/mast
 
 ### Mapping
 
-  We need to map objects/text with metrics, in this tab you can add rules to define conditions to display colors and values.
-  In example, we need 4 rules for 4 metrics, click on mapping tab
+  We need to map objects/text with metrics. In this tab, you can add rules to define conditions to display colors and values.  
+  In this example, we need 4 rules for 4 metrics : click on mapping tab
 
   **Definition of flow 1 and 2**
 
   We don't need state and color, just value displayed.
-  Enter the value below, if you don't have no first rule, click on button "Add Rule"
+  Enter the value below. If you don't have no first rule, click on button "Add Rule"
 
   **Rule Name :** Flow 1  
   **Apply to metrics named :** FLOW-1  
 
   ![inputs](images/getting_started_rule1_inputs.png)
 
-  Now go to text mapping, click on '+' icon and 'Chain' icon and click on text 1
+  Now go to "text mapping", click on '+' icon and 'Chain' icon and click on text 1
   Click on copy rule and repeat action for the _flow 2_ like this :  
 
   **Rule Name :** Flow 2  
@@ -118,14 +118,14 @@ See last version in https://github.com/algenty/flowcharting-repository/tree/mast
 
   ![Display values](images/getting_started_mapping_values_displayed.png)
 
-  You can also enter the object's name in the field of text maps. when cursor is over field, object is selected in panel.
+  You can also enter the object's name in the field of maps'text. When the cursor is over the field, you can see that the object is selected in the panel.
 
   Now, it's time to color child 1 and child 2 according to state.  
-  The header shoulds take level of highter children's states.
+  The header shoulds take level of the highter children's states.
 
   **Definition of states**
 
-  Add a new rule by clicking on button "+ Add rule" and enter the paramter below
+  Add a new rule by clicking on button "+ Add rule" and enter the parameter as showns below
 
   **Rule Name :** Child 1
   **Apply to metrics named :** STATUS-1  
@@ -138,13 +138,13 @@ See last version in https://github.com/algenty/flowcharting-repository/tree/mast
 
   ![child 1](images/mapping_coloron_rule_child1.png)  
     
-  Observe colors change in graph  
+  Observe colors have changed in the graph  
   ![state](images/coloron_mapping_child1_result.png)  
 
-  Display the status in legend
-  In the same rule, change type to string
+  Display the status in the legend
+  In the same rule, change the field "Type" to string
 
-  In Value Mappings, change type to "Range to text" and enter values below :  
+  In Value Mappings, change the type to "Range to text" and enter values below :  
   ![range](images/getting_started_rangetext.png)
 
 

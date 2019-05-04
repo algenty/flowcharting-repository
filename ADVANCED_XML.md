@@ -8,7 +8,7 @@
   * Grip : Display grid marker in background.
   * Bg Color : Change color of background, enter #000000 for no color.
   * Tooltip : Open popup on mouse over (/!\ Not implemented)
-  * Lock : Can't change position or size of graph's objects.
+  * Lock : Block position or size of graph's objects.
 
 # Example
 ![Avanced options display](images/ADVANCED_XML2.png)
