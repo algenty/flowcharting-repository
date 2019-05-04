@@ -144,7 +144,7 @@ See last version in https://github.com/algenty/flowcharting-repository/tree/mast
   Display the status in the legend
   In the same rule, change the field "Type" to string
 
-  In Value Mappings, change the type to "Range to text" and enter values below :  
+  In Value Mappings, change the type to "Range to text" in "Value mapping" and enter values below :  
   ![range](images/getting_started_rangetext.png)
 
 
