@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [[0.3.0 SNAPSHOT]](archives/agenty-flowcharting-panel-0.3.0-SNAPSHOT.zip) - 2019-05-05
 ### Added
     - Dynamic documentation/Examples on popover (thx SCHKN)
+    - Params link option,for link mapping to other dashboard with current params.
     - Full review of code (ES6 Class mode)
     - Unit test with jest to increase quality
     - Fill/text/stoke rules on the same object
