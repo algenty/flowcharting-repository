@@ -19,7 +19,9 @@ Change color and display values in your charts according to states and levels
 <img style="border:0px;margin:0px;float:left;width:300px;height:150px;" src="images/drawio_example2.jpg" />  
 <img style="border:0px;margin:0px;float:left;width:300px;height:150px;" src="images/drawio_example3.jpg" />  
 <img style="border:0px;margin:0px;float:left;width:300px;height:150px;" src="images/drawio_example3.jpg" />  
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>  
+  
+
   
 ## [Getting started](./STARTED.md)
 
