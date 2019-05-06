@@ -1,12 +1,9 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
-
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
-
 ## [[0.3.0 SNAPSHOT]](archives/agenty-flowcharting-panel-0.3.0-SNAPSHOT.zip) - 2019-05-05
 ### Added
+    /!\ Possible breaking change with 0.2.0 and 0.2.5 but it will compatible with next release.
+    - Migration process for next release.
     - Dynamic documentation/Examples on popover (thx SCHKN)
     - Params link option, add params of dashboard to link.
     - Full review of code (ES6 Class mode)
@@ -26,14 +23,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
     - Original Link (Issue #9)
     - Change the colors (Issue #14)
 
-## [[0.2.5]](archives/agenty-flowcharting-panel-0.2.5.zip) - 2019-05-10
+## [[0.2.5]](archives/agenty-flowcharting-panel-0.2.5.zip) - 2019-04-19
 ### Added
     - Mapping Helper for select object with mouse
 ### Fixed
     - Substring replace on text (Issue #8)
     - Editor object not found Exception (Issue #1)
 
-## [0.2.0]
+## [0.2.0] - 2019-03-18
 ### Added
     - Display graph through xml definition
     - Calibrate display (scale, center, background)
@@ -47,3 +44,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
     - Display graph with mxgraph libs
     - Inspect tab to explore object in graph and preview colors
+
+
+# Annex
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
