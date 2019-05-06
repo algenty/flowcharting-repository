@@ -163,7 +163,7 @@ See last version in https://github.com/algenty/flowcharting-repository/tree/mast
   ![result](images/getting_started_result.png)
 
 
-# Annexe
+# Annex
 
 ## Complete dashboad
 ```JSON

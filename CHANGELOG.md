@@ -22,6 +22,7 @@
     - Editor object not found Exception (Issue #1)
     - Original Link (Issue #9)
     - Change the colors (Issue #14)
+    - Unit (Issue #12)
 
 ## [[0.2.5]](archives/agenty-flowcharting-panel-0.2.5.zip) - 2019-04-19
 ### Added
