@@ -8,18 +8,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [[0.3.0 SNAPSHOT]](archives/agenty-flowcharting-panel-0.3.0-SNAPSHOT.zip) - 2019-05-05
 ### Added
     - Dynamic documentation/Examples on popover (thx SCHKN)
-    - Params link option,for link mapping to other dashboard with current params.
+    - Params link option, add params of dashboard to link.
     - Full review of code (ES6 Class mode)
     - Unit test with jest to increase quality
-    - Fill/text/stoke rules on the same object
-    - Mapping selector helper
-    - Icon overlay state
-    - Implemented the conditions to display text according to the states
+    - Fill/text/stoke rules on the same object is possible.
+    - Mapping selector helper (chain in mapping)
+    - Icon overlay state (display icon warning when NOK)
+    - Implemented the conditions to display text according to the states.
     - new inspect Tab with :
       - Renamer ID (double click on ID)
       - State status
       - Debug mode
-    - Custom Link Mapping.
+    - Custom Link Mapping overrite.
 ### Fixed
     - Substring replace on text (Issue #8)
     - Editor object not found Exception (Issue #1)
