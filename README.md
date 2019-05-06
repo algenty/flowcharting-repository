@@ -11,6 +11,7 @@ Flowcharting is a plugin for grafana. It aims to display complexe diagram draws 
 
 Change color and display values in your charts according to states and levels
 
+
 ![technology](images/animated_tech_small.png)
 
 ### Examples in draw.io
