@@ -22,3 +22,8 @@ In this tab, define [rules to mapping metrics](./MAPPING.md) with thresholds on 
   * Add link according to state with params
 
 [more](./MAPPING.md)
+
+### Inspect
+Inspect tab provides tools to configure easiest flowcharting.
+
+[more](./INSPECT.md)
