@@ -17,7 +17,8 @@
     - Renamer ID (double click on ID)
     - State status
     - Debug mode
-  - Custom Link Mapping overrite.
+  - Custom Link Mapping overrite.  
+  
 ### Fixed
   - Substring replace on text (Issue #8)
   - Editor object not found Exception (Issue #1)
@@ -27,7 +28,8 @@
 
 ## [[0.2.5]](archives/agenty-flowcharting-panel-0.2.5.zip) - 2019-04-19
 ### Added
-  - Mapping Helper for select object with mouse
+  - Mapping Helper for select object with mouse  
+  
 ### Fixed
   - Substring replace on text (Issue #8)
   - Editor object not found Exception (Issue #1)
