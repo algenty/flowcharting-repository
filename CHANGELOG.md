@@ -1,6 +1,6 @@
 # Changelog
 
-## [[0.3.0 SNAPSHOT]](archives/agenty-flowcharting-panel-0.3.0-SNAPSHOT.zip) - 2019-05-05
+## [[0.3.0 SNAPSHOT]](archives/agenty-flowcharting-panel-0.3.0-SNAPSHOT.zip) - 2019-05-06
 ### Added
   /!\ Possible breaking change with 0.2.0 and 0.2.5 but it will compatible with next release.  
     
