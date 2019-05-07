@@ -3,6 +3,7 @@
 ## [[0.3.0 SNAPSHOT]](archives/agenty-flowcharting-panel-0.3.0-SNAPSHOT.zip) - 2019-05-05
 ### Added
   /!\ Possible breaking change with 0.2.0 and 0.2.5 but it will compatible with next release.  
+    
   - Migration process for next release.
   - Dynamic documentation/Examples on popover (thx SCHKN)
   - Params link option, add params of dashboard to link.
