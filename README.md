@@ -37,4 +37,4 @@ Change color and display values in your charts according to states and levels
 
   - Having troubles with flowcharting ? Check out [issues](https://github.com/algenty/grafana-flowcharting/issues)
   - Email : <grafana.flowcharting@gmail.com>
-  - Twitter : https://twitter.com/gf_flowcharting
+  - Twitter : [https://twitter.com/gf_flowcharting](https://twitter.com/gf_flowcharting)
