@@ -8,9 +8,10 @@ Flowcharting is a plugin for grafana. It aims to display complexe diagram draws 
   * Floorplans
   * UML plan 
   * ...  
-
+  
 Change color and display values in your charts according to states and levels
 
+Draw your artwork and monitor it !
 
 ![technology](images/animated_tech_small.png)
 
@@ -23,15 +24,18 @@ Change color and display values in your charts according to states and levels
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>  
   
   
-## [Getting started](./STARTED.md)
-
-## [Installation](./INSTALL.md)
-
-## [Configuration](./SETUP.md)
-
-## [Download](./ARCHIVES.md)
-
-## [Change log](./CHANGELOG.md)
+## [Getting started](./STARTED.md)  
+  
+## [Installation](./INSTALL.md)  
+  
+## [Configuration](./SETUP.md)  
+  
+## [Download](./ARCHIVES.md)  
+  
+## [Change log](./CHANGELOG.md)  
+  
+## Project site
+https://github.com/algenty/grafana-plugin-repository  
 
 ## Support or Contact
 
