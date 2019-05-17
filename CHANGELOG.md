@@ -1,5 +1,14 @@
 # Changelog
 
+## [[0.4.0 SNAPSHOT]](archives/agenty-flowcharting-panel-0.4.0.zip) - 2019-05-17  
+/!\ NOT STABLE  
+### Added  
+  - Tooltip support, stay display splitted when tooltip in border of panel
+  - Variables/templates support in text mapping (String mode), in progress
+  - full libs from draw.io support  
+### Fixed  
+  - Optimization when refresh/render [(issue #15)](https://github.com/algenty/grafana-flowcharting/issues/15)  
+
 ## [[0.3.0]](archives/agenty-flowcharting-panel-0.3.0.zip) - 2019-05-07
 ### Added
   /!\ Possible breaking change with 0.2.0 and 0.2.5 but it will compatible with next release.  
