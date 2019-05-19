@@ -44,8 +44,8 @@
   - Mapping Helper for select object with mouse  
   
 ### Fixed
-  - Substring replace on text (Issue #8)
-  - Editor object not found Exception (Issue #1)
+  - Substring replace on text [(Issue #8)](https://github.com/algenty/grafana-flowcharting/issues/8)
+  - Editor object not found Exception [(Issue #1)](https://github.com/algenty/grafana-flowcharting/issues/1)
 
 ## [0.2.0] - 2019-03-18
 ### Added
