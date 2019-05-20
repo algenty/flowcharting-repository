@@ -34,8 +34,7 @@ Draw your artwork and monitor it !
   
 ## [Change log](./CHANGELOG.md)  
   
-## Project site
-https://github.com/algenty/grafana-plugin-repository  
+## [Project site](https://github.com/algenty/grafana-plugin-repository  )
 
 ## Support or Contact
 
