@@ -49,11 +49,6 @@ Add a rule by clicking on button "Add Rule", organize your rules order with arro
   - Warning/Critical : If state is OK, Shapes, arrows or text are not colored, keep orginal color.
   - Always : Objects defined in "Shape Mapping" are colored for each state.
 
-## Color On
-  Select when color is applied :
-  - Warning/Critical : If state is OK, Shapes, arrows or text are not colored, keep orginal color.
-  - Always : Objects defined in "Shape Mapping" are colored for each state.
-
 ## Value On
   Define condition when text/values is displayed.
   - Never : Hide text
@@ -68,3 +63,29 @@ Add a rule by clicking on button "Add Rule", organize your rules order with arro
       Example :  
         Original text = "Number of sessions : VALUE".  
         Change "VALUE" with this pattern "/VALUE/" and keep string before.  
+
+## Tooltips
+  - As of 0.4.0 : In progress
+
+# Link
+
+## Object as link
+  - Add a http link or overwrite on existing for object/shape (defined in link mapping)
+
+## Overwrite link on
+Define condition to overwrite or add link
+
+## Url
+Enter a valid url to redirect user when he click on shapes.
+
+## Add params to link
+Append params of current dashboard to link
+
+# Color Mappings
+IN PROGRESS
+
+# Text Mappings
+IN PROGRESS
+
+# Link Mappings
+IN PROGRESS
