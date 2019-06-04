@@ -64,6 +64,9 @@ Add a rule by clicking on button "Add Rule", organize your rules order with arro
         Original text = "Number of sessions : VALUE".  
         Change "VALUE" with this pattern "/VALUE/" and keep string before.  
 
+![See full example animation](images/example_text_pattern.png)
+
+
 ## Tooltips
   - As of 0.4.0 : In progress
 
@@ -82,7 +85,7 @@ Enter a valid url to redirect user when he click on shapes.
 Append params of current dashboard to link
 
 # Color Mappings
-IN PROGRESS
+  - <i class="fa fa-w fa-remove"></i> : Remove line
 
 # Text Mappings
 IN PROGRESS
