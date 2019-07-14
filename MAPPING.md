@@ -30,6 +30,11 @@ Add a rule by clicking on button "Add Rule", organize your rules order with arro
   - Colors : Select a color and opacity
   - Invert : This link toggles the threshold color order and state (OK, Warning and Error)
 
+#### Icon state
+When rule's state is not ok, Floawcharting add warning icon under shapes
+
+![warning icon](images/mapping_iconstate_ani.png)
+
 ## Type
 ### Number
   Unit and Decimals: Specify unit and decimal precision for numbers.
@@ -43,11 +48,6 @@ Add a rule by clicking on button "Add Rule", organize your rules order with arro
 
 ### Decimals
   Number of decimal to display, only for number type
-
-## Color On
-  Select when color is applied :
-  - Warning/Critical : If state is OK, Shapes, arrows or text are not colored, keep orginal color.
-  - Always : Objects defined in "Shape Mapping" are colored for each state.
 
 ## Color On
   Select when color is applied :
@@ -68,3 +68,42 @@ Add a rule by clicking on button "Add Rule", organize your rules order with arro
       Example :  
         Original text = "Number of sessions : VALUE".  
         Change "VALUE" with this pattern "/VALUE/" and keep string before.  
+
+![See full example animation](images/example_text_pattern.png)
+
+
+## Tooltips
+  - As of 0.4.0 : In progress
+
+# Link
+
+## Object as link
+  - Add a http link or overwrite on existing for object/shape (defined in link mapping)
+
+## Overwrite link on
+Define condition to overwrite or add link
+
+## Url
+Enter a valid url to redirect user when he click on shapes.
+
+## Add params to link
+Append params of current dashboard to link
+
+# Color Mappings
+In this section, you can add object/shapes from panel to colorize it with the conditions of current rule.
+
+  - ![remove](images/fa-remove.png) : Remove line/shapes from current rule
+  - ![hide](images/fa-hide.png) : Hide/ignore line from current rule
+  - ![link](images/fa-link.png) : Click on it to select shapes/object in panel and auto fill input with id object.
+
+
+# Text Mappings
+In this section, you can change the text with the value of metric.
+
+  - ![remove](images/fa-remove.png) : Remove line/texts from current rule
+  - ![hide](images/fa-hide.png) : Hide/ignore line from current rule
+  - ![link](images/fa-link.png) : Click on it to select shapes/text in panel and auto fill input with id object.
+
+
+# Link Mappings
+IN PROGRESS

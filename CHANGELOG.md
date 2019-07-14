@@ -9,7 +9,7 @@
     - In xml definition
     - In text mapping when type in sring for "Range to text" and "Value to text"
     - In link ovewrite
-  - full libs from draw.io support
+  - full libs from draw.io included
   
 ### Fixed  
   - Optimization when refresh/render [(issue #15)](https://github.com/algenty/grafana-flowcharting/issues/15)  
@@ -17,7 +17,6 @@
 
 ## [[0.3.0]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-0.3.0.zip) - 2019-05-07
 ### Added
-  /!\ Possible breaking change with 0.2.0 and 0.2.5 but it will compatible with next release.  
     
   - Migration process for next release.
   - Dynamic documentation/Examples on popover (thx SCHKN)
