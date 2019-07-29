@@ -1,7 +1,11 @@
 # Changelog
 
-## [[0.4.0 SNAPSHOT]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-0.4.0-SNAPSHOP.zip) - 2019-07-25 
+## [[0.4.0 SNAPSHOT]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-0.4.0-SNAPSHOP.zip) - 2019-07-29 
 ### Added  
+  - Zoom :
+    - Mouse wheel to zoom on center (zoom on mouse cursor in coming)
+    - Right button to move diagram.
+    - Escape key to restore.
   - Tooltip/popup support :
     - Grafana style css and date
     - Adding metrics with color according levels
