@@ -1,10 +1,11 @@
 # Changelog
 
-## [[0.4.0 SNAPSHOT]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-0.4.0-SNAPSHOP.zip) - 2019-07-29 
+## [[0.4.0 SNAPSHOT]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-0.4.0-SNAPSHOP.zip) - 2019-08-06
 ### Added  
-  - Zoom :
-    - Ctrl + Mouse wheel to zoom on center (zoom on mouse cursor in coming)
-    - Right button to move diagram.
+  - Zoom [(issue #19)](https://github.com/algenty/grafana-flowcharting/issues/19)  
+    - On the mouse pointer : Ctrl + Mouse
+    - Hold right button to move diagram.
+    - double click on shape to zoom on.
     - Escape key to restore.
   - Tooltip/popup support :
     - Grafana style css and date
@@ -16,12 +17,7 @@
     - In xml definition
     - In text mapping when type in sring for "Range to text" and "Value to text"
     - In link ovewrite
-  - full libs from draw.io included
-  
-### Fixed  
-  - Optimization when refresh/render [(issue #15)](https://github.com/algenty/grafana-flowcharting/issues/15)  
-  - No decimal fixed when 0 [(issue #23)](https://github.com/algenty/grafana-flowcharting/issues/23)
-  - Text substring and color [(issues #29)](https://github.com/algenty/grafana-flowcharting/issues/29)
+  - full shapes from draw.io included
 
 ## [[0.3.0]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-0.3.0.zip) - 2019-05-07
 ### Added
