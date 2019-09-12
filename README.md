@@ -1,5 +1,5 @@
 # Flowcharting for Grafana
-This repository is only for documentation
+This repository is only for documentation.  
 Stars project on https://github.com/algenty/grafana-flowcharting(https://github.com/algenty/grafana-flowcharting) if you like it
 
 ## About
