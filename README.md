@@ -1,4 +1,6 @@
 # Flowcharting for Grafana
+This repository is only for documentation.  
+Star project on [https://github.com/algenty/grafana-flowcharting](https://github.com/algenty/grafana-flowcharting) if you like it.  
 
 ## About
 Flowcharting is a plugin for grafana. It aims to display complexe diagram draws with [draw.io](https://draw.io/). Few examples :
