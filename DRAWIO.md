@@ -16,3 +16,6 @@ Draw.io gives several examples to control the design at [Basic flowchart](https:
 
 Exercices are available here too at  
 <https://about.draw.io/draw-io-training-exercise-2-editing-a-diagram-change-the-colors/>
+
+You can found many examples at 
+<https://about.draw.io/features/examples/>
