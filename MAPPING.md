@@ -116,3 +116,4 @@ In this section, you can add object/shapes from panel to link to an other dashbo
   - ![remove](images/fa-remove.png) : Remove line/shapes from current rule
   - ![hide](images/fa-hide.png) : Hide/ignore line from current rule
   - ![link](images/fa-link.png) : Click on it to select shapes/object in panel and auto fill input with id object.
+
