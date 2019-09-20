@@ -15,4 +15,4 @@ Or click on button "Edit Draw" in Flowcharting Panel and click on Save.
 Draw.io gives several examples to control the design at [Basic flowchart](https://about.draw.io/flowcharts/)
 
 Exercices are available here too at  
-https://about.draw.io/draw-io-training-exercise-2-editing-a-diagram-change-the-colors/
+<https://about.draw.io/draw-io-training-exercise-2-editing-a-diagram-change-the-colors/>
