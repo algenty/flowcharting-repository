@@ -6,9 +6,11 @@ Open draw.io at https://www.draw.io/ with
   - [Light theme](https://www.draw.io/?libraries=1&ui=light)
   - [Dark theme](https://www.draw.io/?libraries=1&ui=dark) 
 
-Copy/paste definition from draw.io, menu "Extra > Edit Diagram" in "Source Content" on Panel.
+And copy/paste definition from draw.io, menu "Extra > Edit Diagram" in "Source Content" on Panel.
 
-Or click on button "Edit Draw" and click on Save.
+Or click on button "Edit Draw" in Flowcharting Panel and click on Save.  
+
+![Open editor](images/openEditor_ani.gif)  
 
 Draw.io gives several examples to control the design at [Basic flowchart](https://about.draw.io/flowcharts/)
 
