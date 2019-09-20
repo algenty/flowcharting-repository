@@ -31,6 +31,8 @@ Draw your artwork and monitor it !
 ## [Installation](./INSTALL.md)  
   
 ## [Configuration](./SETUP.md)  
+
+## [Keys](./KEYS.md)  
   
 ## [Download](./ARCHIVES.md)  
   

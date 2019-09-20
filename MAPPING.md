@@ -73,7 +73,12 @@ When rule's state is not ok, Floawcharting add warning icon under shapes
 
 
 ## Tooltips
-  - As of 0.4.0 : In progress
+  Enable popup when curos is on shape with values and tooltips
+  - Label : Display this label before values
+  - Tooltip when state is : Select conditions to show popup
+  - Color with state : Color value with state defined in Thresholds  
+
+![See full example animation](images/tooltip2_ani.gif)
 
 # Link
 
@@ -106,4 +111,8 @@ In this section, you can change the text with the value of metric.
 
 
 # Link Mappings
-IN PROGRESS
+In this section, you can add object/shapes from panel to link to an other dashboard/site with the conditions of current rule.
+
+  - ![remove](images/fa-remove.png) : Remove line/shapes from current rule
+  - ![hide](images/fa-hide.png) : Hide/ignore line from current rule
+  - ![link](images/fa-link.png) : Click on it to select shapes/object in panel and auto fill input with id object.
