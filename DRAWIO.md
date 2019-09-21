@@ -34,7 +34,7 @@ Click in menu > View > Shapes... to add shapes in left panel in draw.io
 
 ## Convert and import  
 Several formats are supported by draw.io like visio, png, svg with import menu.  
-https://about.draw.io/features/import-export/
+<https://about.draw.io/features/import-export/>
 
 With visio  
-https://about.draw.io/import-and-export-vsdx-files/
+<https://about.draw.io/import-and-export-vsdx-files/>
