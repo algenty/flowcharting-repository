@@ -1,6 +1,6 @@
 # Changelog
 
-## [[0.4.0 SNAPSHOT]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-0.4.0-SNAPSHOP.zip) - 2019-09-14
+## [[0.4.0 SNAPSHOT]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-0.4.0-SNAPSHOT.zip) - 2019-09-14
 ### Added
   - Draw.io editor ([Example](https://algenty.github.io/flowcharting-repository/images/openEditor_ani.gif))
     - Open draw.io with dark theme for better rendering  
