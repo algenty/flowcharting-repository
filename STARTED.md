@@ -1,18 +1,16 @@
 # Getting started
 
 In this page, by an exercice, you will understand the power of flowcharting.  
-/!\ Page on beta
 
 ## installation
 
 1. Install lastest version of plugin on you server
 See last version in https://github.com/algenty/flowcharting-repository/tree/master/archives
 
-Here last version is agenty-flowcharting-panel-0.3.0-SNAPSHOT.zip
 ```shell
 cd <grafana_home>/data/plugin
-wget https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-0.3.0-SNAPSHOT.zip
-unzip agenty-flowcharting-panel-0.3.0-SNAPSHOT.zip
+wget https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-0.4.0.zip
+unzip agenty-flowcharting-panel-0.4.0.zip
 ```
 
 2. restart Grafana
