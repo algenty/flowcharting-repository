@@ -21,9 +21,16 @@ Example :
 
 ## Beautify your graph
 
-In editor or draw.io, use "Shadow" and "Glass" to beautify the graph
+In editor or draw.io, use "Shadow" and "Glass" to beautify the graph.
+NB : Gradient is not supported at this time in plugin.
 
 [![animation](images/tips_beautify.png)](images/tips_beautify.png)
 
+## Floorplan colorization
+
+In draw.io, use a rectangle to front on the room and reduce opacity to see under the rectangle when color changes.
+Uncheck the line if you don't want to see the borderlines.
+
+[![animation](images/floorplan_ani.png)](images/floorplan_ani.png)
 
 Again ? Send me your tips and tricks by email at <grafana.flowcharting@gmail.com>
