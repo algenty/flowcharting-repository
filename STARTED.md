@@ -162,6 +162,19 @@ See last version in https://github.com/algenty/flowcharting-repository/tree/mast
   
   ![result](images/getting_started_result.png)
 
+# External URL and Zoom  
+
+  In this chapter, we'll try to load external source (0.4.0 version or higher needed)
+
+    Create a new dashboad avec select Flowcharting plugin.
+    1. Edit the panel
+    2. Select Visualization
+    3. Active "Download Source"
+    4. Enter in URL field : https://raw.githubusercontent.com/algenty/flowcharting-repository/master/graphs/large_diagram.drawio
+    5. On the graph, use Ctrl+mouse wheel, Hold right mouse, double click on shape and ESC to return to the original view.  
+
+    [![animation](images/getting_started_mapping_text_legend_small.png)](images/ch2_zoom_ani.gif)
+
 
 # Annex
 
