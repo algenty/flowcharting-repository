@@ -162,7 +162,8 @@ At result, note that header takes highest level when it included in 2 rules of c
 
 # External URL and Zoom  
 
-In this chapter, we'll try to load external source (0.4.0 version or higher needed)
+## Basic
+In this chapter, we'll try to load external source (0.4.0 version or higher needed) and zoom for big graph.  
 
 Create a new dashboad avec select Flowcharting plugin.
 1. Edit the panel
@@ -172,3 +173,21 @@ Create a new dashboad avec select Flowcharting plugin.
 5. On the graph, use Ctrl+mouse wheel, Hold right mouse, double click on shape and ESC to return to the original view.  
 
 [![animation](images/ch2_zoom_ani.gif)](images/ch2_zoom_ani.gif)
+
+## Advanced
+
+Double click on empty zone without shape don't work, to zoom on a portion of the graph, we need to create zone like it.
+
+1. Uncheck "Download Source"
+2. Replace source by value of this [model](https://raw.githubusercontent.com/algenty/flowcharting-repository/master/graphs/ch2_zone.drawio)
+3. Open graph in with button "Edit Draw".
+4. Create a zone with a rectangle.
+5. Resize the zone with the aim that all "A" are in rectangle.
+6. Put it to back.
+7. In style panel, uncheck "fill" and "line" or keep it visible.
+8. Duplicate rectangle : Select rectangle, hold Ctrl and move rectangle on "C".
+9. Resize and repeat for the B.
+10. Click on Save.
+11. Double click on zone to test it.
+
+[![animation](images/zoom_zone_ani.png)](images/zoom_zone_ani.png)
