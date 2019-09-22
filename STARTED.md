@@ -173,4 +173,4 @@ Create a new dashboad avec select Flowcharting plugin.
   4. Enter in URL field : https://raw.githubusercontent.com/algenty/flowcharting-repository/master/graphs/large_diagram.drawio
   5. On the graph, use Ctrl+mouse wheel, Hold right mouse, double click on shape and ESC to return to the original view.  
 
-[![animation](images/getting_started_mapping_text_legend_small.png)](images/ch2_zoom_ani.gif)
+[![animation](images/ch2_zoom_ani.gif)](images/ch2_zoom_ani.gif)
