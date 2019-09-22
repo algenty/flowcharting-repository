@@ -176,7 +176,7 @@ Create a new dashboad avec select Flowcharting plugin.
 
 ## Advanced
 
-Double click on empty zone without shape don't work, to zoom on a portion of the graph, we need to create zone like it.
+Double click on empty zone without shape don't work, to zoom on a portion of the graph, we need to create a zone like it :  
 
 1. Uncheck "Download Source".
 2. Replace source by value of this [model](https://raw.githubusercontent.com/algenty/flowcharting-repository/master/graphs/ch2_zone.drawio)
@@ -186,7 +186,7 @@ Double click on empty zone without shape don't work, to zoom on a portion of the
 6. Put it to back.
 7. In style panel, uncheck "fill" and "line" or keep it visible.
 8. Duplicate rectangle : Select rectangle, hold Ctrl and move rectangle on "C".
-9. Resize and repeat for the B.
+9. Resize and repeat for the "B".
 10. Click on Save.
 11. Double click on zone to test it.
 

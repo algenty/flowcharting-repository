@@ -37,6 +37,8 @@ Draw your artwork and monitor it !
 ## [draw.io editor](DRAWIO.md)
   
 ## [Download](./ARCHIVES.md)  
+
+## [Tips and tricks](./TIPS.md)
   
 ## [Change log](./CHANGELOG.md)  
   
