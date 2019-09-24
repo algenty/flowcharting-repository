@@ -4,7 +4,7 @@ Flowcharting requires [Grafana](https://www.grafana.com/) v5+ to run (not tested
 
 ## Unofficial version (last build)
 
-Go to https://github.com/algenty/flowcharting-repository/tree/master/archives and download lastest zip file.  
+Go to https://github.com/algenty/flowcharting-repository/tree/master/archives and download the lastest zip file.  
 
 ```sh
 $ cd $grafana_home/data/plugin
