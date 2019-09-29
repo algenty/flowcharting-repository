@@ -1,5 +1,18 @@
 # Changelog
 
+## [[0.5.0 SNAPSHOT]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-0.5.0-SNAPSHOT.zip) - 2019-09-29
+### Added  
+  - 2 new modes for "Update text value" ([See example](https://algenty.github.io/flowcharting-repository/images/append_mode_ani.png))
+    - Append (Space) : Concat metrics with a space as a separator
+    - Append (New line) : Concat metrics with a line break
+  - Variabilization in "Url" for link mapping ([See example](https://algenty.github.io/flowcharting-repository/images/variable_link_ani.png))
+
+### Fixed  
+  - Fix color to reset when "Color on" is "Always/Critical" and metric is OK  
+  - Fix border to empty instead black when "color mode" is "Fill" [(issue #29)](https://github.com/algenty/grafana-flowcharting/issues/29)  
+  - Fix error when "Value On" is not "When metric displayed"
+  - Fix Link [(issue #37)](https://github.com/algenty/grafana-flowcharting/issues/37)  
+
 ## [[0.4.0]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-0.4.0.zip) - 2019-09-26
 ### Added
   - Draw.io editor ([see example](https://algenty.github.io/flowcharting-repository/images/openEditor_ani.gif))
