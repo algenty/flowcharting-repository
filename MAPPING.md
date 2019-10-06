@@ -1,5 +1,10 @@
 # Mapping and rules
 Add a rule by clicking on button "Add Rule", organize your rules order with arrows at left rule header.
+The rules are defined in 2 zones :
+  - The conditions
+  - The targets if the following conditions are met  
+
+![Metrics name example](images/rules_conditions.png)
 
 ## Options
 ### Rule name
