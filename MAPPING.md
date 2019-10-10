@@ -35,6 +35,16 @@ The rules are defined in 2 zones :
   - Colors : Select a color and opacity
   - Invert : This link toggles the threshold color order and state (OK, Warning and Error)
 
+### Color mode
+  Use it to define what and how to color the object :
+  - Fill : Fill the object with the defined color and state.
+  - Stoke : Color the object's perimeter with the defined color and state (Use it for the arrows).
+  - Text : Color the object's label with the defined color and state.
+  - Backgroud : only for the image like clipart, Color the image's backgroud.
+  - Border : only for the image like clipart, Color the image's perimeter.  
+
+![Metrics name example](images/colormode_ani.png)
+
 #### Icon state
 When rule's state is not ok, Floawcharting add warning icon under shapes
 
