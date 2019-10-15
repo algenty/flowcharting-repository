@@ -14,7 +14,9 @@
   - Support Dynamic shapes like Floorplan, isometric plans and more ([See example](https://algenty.github.io/flowcharting-repository/images/dynamic_shapes_ani.png))
   - New color mode for no SVG object like pictures/cliparts/images ([See example](https://algenty.github.io/flowcharting-repository/images/colormode_ani.png))
   - Graphs in tooltip ([See example](https://algenty.github.io/flowcharting-repository/images/tooltip_graph.png))
-  - Define the direction for each metrics/graph in tooltips (horizontal or verticel)
+    - Color graph with defined colors in threshold
+    - Size of graph ([See example](https://algenty.github.io/flowcharting-repository/images/graph_size.png))
+  - Define the orientation in  tooltip for each metrics/graph in tooltips : horizontal or vertical ([See example](https://algenty.github.io/flowcharting-repository/images/tooltip_direction_ani.png))
   - Some optimizations, Display is twice as fast on load.
 
 ### Fixed  
@@ -28,7 +30,7 @@
   - Fix auto reset zoom/unzoom when data refreshed, only ESC or change options on flowchart reset zoom now [(issue #38)](https://github.com/algenty/grafana-flowcharting/issues/38)
   - Fix error for BPNM shapes [(Issue #51)](https://github.com/algenty/grafana-flowcharting/issues/51)
   - Fix display when center and scale are checked on flowchart options.
-  - Fix Zoom with mouse on firefox and Edge.
+  - Fix Zoom with mouse wheel for firefox and Edge.
 
 
 ## [[0.4.0]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-0.4.0.zip) - 2019-09-26
