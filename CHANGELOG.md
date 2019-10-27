@@ -1,5 +1,16 @@
 # Changelog
 
+## [[0.6.0 SNAPSHOT]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-0.6.0-SNAPSHOT.zip) - 2019-10-27
+### Added  
+  - Some optimization on : 
+    - tooltips
+    - States
+  - Tooltip Graph :
+    - Histogram ([See example](https://algenty.github.io/flowcharting-repository/images/histogram_ani.png))
+  - Variables support in download input url ([See example](https://algenty.github.io/flowcharting-repository/images/url_download_variable_ani.png))
+### Fixed
+  - Fix download url on first load.
+
 ## [[0.5.0 SNAPSHOT]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-0.5.0-SNAPSHOT.zip) - 2019-10-15
 ### Added  
   - 2 new modes for "Update text value" ([See example](https://algenty.github.io/flowcharting-repository/images/append_mode_ani.png))
