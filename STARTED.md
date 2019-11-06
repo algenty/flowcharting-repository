@@ -9,8 +9,8 @@ See last version in https://github.com/algenty/flowcharting-repository/tree/mast
 
 ```shell
 cd <grafana_home>/data/plugin
-wget https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-0.4.0.zip
-unzip agenty-flowcharting-panel-0.4.0.zip
+wget https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-0.5.0.zip
+unzip agenty-flowcharting-panel-0.5.0.zip
 ```
 
 2. restart Grafana
@@ -34,6 +34,7 @@ In menu : Configuration > Plugins > flowcharting
 
 3. Click on button 'Extract/decode' and 'Pretify' to display xml code
 4. By Hold the right button of mouse in graph, you can move schema in panel
+5. With CTRL + Mouse wheel, you can zoom/unzoom
 
 ### Flowchart definition
 
@@ -163,7 +164,7 @@ At result, note that header takes highest level when it included in 2 rules of c
 # External URL and Zoom  
 
 ## Basic
-In this chapter, we'll try to load external source (0.4.0 version or higher needed) and zoom for big graph.  
+In this chapter, we'll try to load external source (0.5.0 version or higher needed) and zoom for big graph.  
 
 Create a new dashboad avec select Flowcharting plugin.
 1. Edit the panel

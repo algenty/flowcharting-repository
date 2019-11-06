@@ -7,8 +7,8 @@ The rules are defined in 2 zones :
 ![Metrics name example](images/rules_conditions.png)
 
 ## Options
-### Rule name
-  Enter rule name, for infomation. It display on header rule.
+### Rule name  
+  Enter rule name, for infomation. It display on the header of rule.
 
 ### Apply to metrics 
   Enter alias of metric or regular pattern of metric for this rule, metric are aggregated and values are used to evaluate state.  

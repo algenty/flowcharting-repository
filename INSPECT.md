@@ -30,4 +30,4 @@ https://about.draw.io/tag/anonymize/
 
 
 ## Debug Mode
-You can activate or desactivate debug in console navigator.
+You can activate or desactivate debug in the console navigator.
