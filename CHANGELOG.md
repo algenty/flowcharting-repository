@@ -1,18 +1,26 @@
 # Changelog
 
-## [[0.6.0 SNAPSHOT]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-0.6.0-SNAPSHOT.zip) - 2019-11-04
+## [[0.6.0 SNAPSHOT]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-0.6.0-SNAPSHOT.zip) - 2019-11-24
 ### Added  
   - Some optimization on : 
     - tooltips
     - States
   - Tooltip Graph :
     - Histogram ([See example](https://algenty.github.io/flowcharting-repository/images/histogram_ani.png))
+    - Logarithmic scale. 
   - Variables support in download input url ([See example](https://algenty.github.io/flowcharting-repository/images/url_download_variable_ani.png))
-  - Add graduate effect when color changed
+  - Add graduate effect when color changed.
+  - New rule design in editor
+  - Typescript convertion.
+  - Migration to grafana-toolkit.
+  - New Mxgraph/Draw.io engine for best support.
+  - Better Zoom for firefox and IE/edge.
 ### Fixed
   - Fix download url on first load.
   - Fix value null for string [(issue #65)](https://github.com/algenty/grafana-flowcharting/issues/65)
   - Fix bug "subways" Editor [(issue #73)](https://github.com/algenty/grafana-flowcharting/issues/73)
+  - Fix minors bug.
+
 
 ## [[0.5.0 SNAPSHOT]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-0.5.0-SNAPSHOT.zip) - 2019-10-15
 ### Added  
