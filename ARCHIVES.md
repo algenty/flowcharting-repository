@@ -2,7 +2,7 @@
 
 | name | Date |
 |:---|:----:|
-|[agenty-flowcharting-panel-0.7.0-SNAPSHOT.zip](archives/agenty-flowcharting-panel-0.7.0-SNAPSHOT.zip)|2019-12-28|
+|[agenty-flowcharting-panel-0.7.0-SNAPSHOT.zip](archives/agenty-flowcharting-panel-0.7.0-SNAPSHOT.zip)|2019-03-19|
 |[agenty-flowcharting-panel-0.6.0.zip](archives/agenty-flowcharting-panel-0.6.0.zip)|2019-12-21|
 |[agenty-flowcharting-panel-0.5.0.zip](archives/agenty-flowcharting-panel-0.5.0.zip)|2019-10-15|
 |[agenty-flowcharting-panel-0.4.0.zip](archives/agenty-flowcharting-panel-0.4.0.zip)|2019-09-26|
