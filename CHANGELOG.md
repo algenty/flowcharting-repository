@@ -1,10 +1,25 @@
 # Changelog
 
-## [[0.7.0 SNAPSHOT]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-0.7.0-SNAPSHOT.zip) - 2019-12-28  
+## [[0.7.0 SNAPSHOT]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-0.7.0-SNAPSHOT.zip) - 2019-03-19  
 ### Added  
   - Select "color mode" for each id/value in mapping options instead one by rule.  
+  - new conditions and design in rule for each mapping intead one by rule. 
+    - when : When condition applied
+    - what : which shape
+    - how : how to colorize shape 
+  - Update libs :
+    - draw.io : 12.8.6 (Kubernetes shapes and more)
+    - mxgraph : 4.1.0
 ### Fixed  
   - Fix getNames for series [(issue #100)](https://github.com/algenty/grafana-flowcharting/issues/100)  
+  - Fix colors when cloned rules [(issue #124)](https://github.com/algenty/grafana-flowcharting/issues/124)  
+  - Fix shapes from last versions of draw.io [(issue #124)](https://github.com/algenty/grafana-flowcharting/issues/125)  
+
+## [[0.6.1]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-0.6.1.zip) - 2020-01-15  
+### Fixed
+  - Fix endless loading when edit graph [(issue #102)](https://github.com/algenty/grafana-flowcharting/issues/102)
+  - Fix error on edit mode for timeserie [(issue #100)](https://github.com/algenty/grafana-flowcharting/issues/100)
+  - Fix "Apply button" in inspect mode [(issue #104)](https://github.com/algenty/grafana-flowcharting/issues/104)
 
 ## [[0.6.0]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-0.6.0.zip) - 2019-12-21  
 ### Added  
