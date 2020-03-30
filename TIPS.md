@@ -1,5 +1,9 @@
 # Tips and tricks
 
+## Examples dashboard with Flowcharting
+More examples dashboard at
+https://flowcharting.grafana.net
+
 ## Zoom into a zone
 
 Double click on empty zone without shape don't work, to zoom on a portion of the graph, we need to create a zone.  
