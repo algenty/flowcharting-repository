@@ -1,6 +1,6 @@
 # Tips and tricks
 
-## Examples dashboard with Flowcharting
+## Examples dashboards with Flowcharting
 More examples dashboard at
 https://flowcharting.grafana.net
 
@@ -36,5 +36,12 @@ In draw.io, use a rectangle to front on the room and reduce opacity to see under
 Uncheck the line if you don't want to see the borderlines.
 
 [![animation](images/floorplan_ani.png)](images/floorplan_ani.png)
+
+## Variables
+You can use variables in xml définition or url in link.
+Be carreful, at this time, only uncompressed xml supports variables
+
+[![animation](images/variable_link_ani.png)](images/variable_link_ani.png)
+
 
 Again ? Send me your tips and tricks by email at <grafana.flowcharting@gmail.com>
