@@ -38,8 +38,13 @@ Uncheck the line if you don't want to see the borderlines.
 [![animation](images/floorplan_ani.png)](images/floorplan_ani.png)
 
 ## Variables
-You can use variables in xml définition or url in link.
-Be carreful, at this time, only uncompressed xml supports variables
+You can use variables in xml définition or url in link.  
+Be carreful, at this time, only uncompressed xml supports variables.  
+Syntax : ${myVariable}
+Supported field with variables :
+  - Source Content in flowchart section
+  - URL in flowchart section when download source is active
+  - Link mapping Url in Mapping section
 
 [![animation](images/variable_link_ani.png)](images/variable_link_ani.png)
 
