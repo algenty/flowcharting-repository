@@ -58,7 +58,7 @@ Examples of code :
 Math.floor(Math.random() * 100) + 1;
 ```
 
-### Define a progress bar according the level  
+### Define a progress bar according the level/value  
 1. Add a progress bar in graph by draw.io (Add more shape, Material design, expend GMLD/sliders section)
 2. Add 10 colors/intervals
 3. Add an event for each level
