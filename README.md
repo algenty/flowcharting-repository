@@ -32,6 +32,8 @@ Draw your artwork and monitor it !
   
 ## [Configuration](./SETUP.md)  
 
+## [Variables](./VARIABLES.md)  
+
 ## [Keys](./KEYS.md)  
 
 ## [draw.io editor](DRAWIO.md)

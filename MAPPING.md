@@ -64,12 +64,12 @@ When rule's state is not ok, Floawcharting add warning icon under shapes
 ### Decimals
   Number of decimal to display, only for number type
 
-## Color On
+## Color On (version < 0.6.0)| "How" field  in color mapping (version > 0.7.0)
   Select when color is applied :
   - Warning/Critical : If state is OK, Shapes, arrows or text are not colored, keep orginal color.
   - Always : Objects defined in "Shape Mapping" are colored for each state.
 
-## Value On
+## Value On (version < 0.6.0)| "How" field  in text/label mapping (version > 0.7.0)
   Define condition when text/values is displayed.
   - Never : Hide text
   - When metric displayed : Show data if serie not empty.
@@ -100,7 +100,7 @@ When rule's state is not ok, Floawcharting add warning icon under shapes
 ## Object as link
   - Add a http link or overwrite on existing for object/shape (defined in link mapping)
 
-## Overwrite link on
+## Overwrite link on (version 0.6.0) | "How" field  in Link mapping (version > 0.7.0)
 Define condition to overwrite or add link
 
 ## Url
@@ -131,4 +131,7 @@ In this section, you can add object/shapes from panel to link to an other dashbo
   - ![remove](images/fa-remove.png) : Remove line/shapes from current rule
   - ![hide](images/fa-hide.png) : Hide/ignore line from current rule
   - ![link](images/fa-link.png) : Click on it to select shapes/object in panel and auto fill input with id object.
+
+# Event Mapping
+In this section, you can customize custom animation or event like blink, opacity and more.
 

@@ -48,5 +48,33 @@ Supported field with variables :
 
 [![animation](images/variable_link_ani.png)](images/variable_link_ani.png)
 
+## Custom variables (version 0.8.0)  
+Custom variables and eval are availables on some fields [(see variables section)](./VARIABLES.md).
+In supported field, javascript code is supported.
+Examples of code :
+
+### Returns a random integer from 1 to 100
+```
+Math.floor(Math.random() * 100) + 1;
+```
+
+### Define a progress bar according the level  
+1. Add a progress bar in graph by draw.io (Add more shape, Material design, expend GMLD/sliders section)
+2. Add 10 colors/intervals
+3. Add an event for each level
+4. select progress bar in event for what
+5. select 'Change position in Bar' for action
+6. Enter like below in 'value'
+```
+${_level} * 10
+```
+if the value is already between 0-100
+Choose like that
+```
+${_value}
+```
+
+[![animation](images/variable_link_ani.png)](images/progressbar_ani.png)
+
 
 Again ? Send me your tips and tricks by email at <grafana.flowcharting@gmail.com>
