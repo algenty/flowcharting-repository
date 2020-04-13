@@ -2,7 +2,8 @@
 
 | name | Date |
 |:---|:----:|
-|[agenty-flowcharting-panel-0.8.0-SNAPSHOT.zip](archives/agenty-flowcharting-panel-0.8.0-SNAPSHOT.zip)|2020-03-28|
+|[agenty-flowcharting-panel-0.8.0-SNAPSHOT.zip](archives/agenty-flowcharting-panel-0.8.0-SNAPSHOT.zip)|2020-04-13|
+|[agenty-flowcharting-panel-0.7.1.zip](archives/agenty-flowcharting-panel-0.7.1.zip)|2020-04-11|
 |[agenty-flowcharting-panel-0.7.0.zip](archives/agenty-flowcharting-panel-0.7.0.zip)|2020-03-26|
 |[agenty-flowcharting-panel-0.6.0.zip](archives/agenty-flowcharting-panel-0.6.0.zip)|2019-12-21|
 |[agenty-flowcharting-panel-0.5.0.zip](archives/agenty-flowcharting-panel-0.5.0.zip)|2019-10-15|

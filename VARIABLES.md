@@ -23,3 +23,17 @@ List of custom variables :
  - ${_rule} : Name of rule
  - ${_value} : Raw value
  - ${_formated} : Formated value
+
+ Javascript code supports like it :
+ ```
+ // Percent
+ ${_level} * 100
+
+ ```  
+
+ ```
+ // Boolean like
+ ${_value} > 50 ? 1 : 0
+ ```
+
+ and more
