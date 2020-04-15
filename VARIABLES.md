@@ -18,15 +18,15 @@ Custom variables and eval are availables on fields :
   - Link Mapping, field 'Url'
 
 List of custom variables :
- - ${_level} : Current level
- - ${_color} : Current color
- - ${_rule} : Name of rule
- - ${_value} : Raw value
- - ${_formated} : Formated value
+ - ${_level} : Current level  
+ - ${_color} : Current color  
+ - ${_rule} : Name of rule  
+ - ${_value} : Raw value according to the aggregation  
+ - ${_formated} : Formated value according to the type and unit  
 
  Javascript code supports like it :
  ```
- // Percent
+ // Percent for 10 levels
  ${_level} * 100
 
  ```  
