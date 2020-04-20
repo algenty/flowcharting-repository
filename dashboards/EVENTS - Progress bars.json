@@ -1,0 +1,770 @@
+{
+    "annotations": {
+      "list": [
+        {
+          "builtIn": 1,
+          "datasource": "-- Grafana --",
+          "enable": true,
+          "hide": true,
+          "iconColor": "rgba(0, 211, 255, 1)",
+          "name": "Annotations & Alerts",
+          "type": "dashboard"
+        }
+      ]
+    },
+    "editable": true,
+    "gnetId": null,
+    "graphTooltip": 0,
+    "id": 36,
+    "links": [],
+    "panels": [
+      {
+        "datasource": null,
+        "flowchartsData": {
+          "flowcharts": [
+            {
+              "allowDrawio": false,
+              "bgColor": null,
+              "center": true,
+              "csv": "",
+              "download": false,
+              "editorTheme": "kennedy",
+              "editorUrl": "https://www.draw.io",
+              "enableAnim": true,
+              "grid": false,
+              "lock": true,
+              "name": "Main",
+              "scale": true,
+              "tooltip": true,
+              "type": "xml",
+              "url": "http://<YourUrl>/<Your XML/drawio file/api>",
+              "xml": "<mxfile host=\"www.draw.io\" modified=\"2020-04-18T05:59:30.882Z\" agent=\"5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36\" version=\"12.9.14\" etag=\"fmGCnNISduKNfzMYbpKW\"><diagram id=\"Uaqj1Go1fpO5w1B2le7W\" name=\"Page-1\">7VrLbqMwFP2aLKcCHF5LHkm7mEqRolHXFBywChgRp0n69WODIQRIQ9sYqqpZRPb1NcbnXB9fW8yAkxzucy+LHnEA45kiBYcZcGeKohsK/WeGY2lQdaM0hDkKSpN8MqzRG+RGiVt3KIDbM0eCcUxQdm70cZpCn5zZvDzH+3O3DY7PR828EHYMa9+Lu9YnFJCotBqKfrI/QBRG1ciyZpYtiVc585lsIy/A+4YJLGbAyTEmZSk5ODBm2FW4lP2WF1rrF8thSoZ0eMvJ40pd//PX9tMqTGP7xXn4o3I2Xr14x2cM6GNU/srkWOFA3z5jxS2B2QzYGcxRAgnMuWl1qtv7CBG4zjyf+e9pVFBbRJKY1mRa3KADrIhm9S0vSkVbHDs4xnkxKJhbqq4ZzIfk+AVWLSlOIXPGKameo/F6o/Om+FV+fCZswBzv0gAyVNiQXRg5sq8wJ/DQMHFY7yGmM82P1IW3Vgwfz6v7U7xo3BQ1QmXObR6P0LB+7olEWuA8foRTs8Nph87bcWTLrruULnF0A3TNc3RBF10g9cCriIK34nIceGVJB+biEry1ptwokq9jbY4KtdyBWld/1elL6qRPrE6aMubyWToL3XHHUydjcnUCo8KrmECeSp16sFYqbRgH63kHa/M3efqaPMlTZ0+aOuoCslzTVcfTJ3n69EkbE19rMZeBMpFA9YFd77/jgK13wFZ+E6gvKtTkGVT3zC5wBdmWY7hgRIWaPoUa9fxMl8FcvZihilaoHrD1MVOoai01sP7rPbMrxBbgbIrI9+KidYW3iCCc0qZnTAhOKDiVgxWjkDUQ3OKkkrjkELKbyjuUbnBRQv4dgxkGzu6ZYY622ErDUk/Uj57I22rUUq26c1PdFAFEq/L1vGres6oMYUx3z/Lfnen3TzdXmK47C2daazEtDWO69rs91d0j/nen+v088QrVdWfRVGvtRS0Po9oUxnT3tuG7M/3+fnuF6bqzcKbbi1odxrQqjOkBx+JLJJdcthmuqRdAslP8hO7RHp9GDDcUexvTXBARxpYuaAfvSdX6IkATFgEDDu4/JAKWsmnJ5vQRoH0qAoQdPPXubcJPjQDXUCwFTB4B7Q1/YASI2wUGXD38kAioL6cmjoDPacAnMj5aPX2MUrQ1vugBi/8=</diagram></mxfile>",
+              "zoom": "100%"
+            }
+          ]
+        },
+        "format": "short",
+        "graphId": "flowchart_2",
+        "gridPos": {
+          "h": 9,
+          "w": 12,
+          "x": 0,
+          "y": 0
+        },
+        "id": 2,
+        "newFlag": false,
+        "rulesData": {
+          "rulesData": [
+            {
+              "aggregation": "current",
+              "alias": "P4",
+              "colors": [
+                "rgba(245, 54, 54, 0.9)",
+                "rgba(237, 129, 40, 0.89)",
+                "rgba(50, 172, 45, 0.97)"
+              ],
+              "column": "Time",
+              "dateFormat": "YYYY-MM-DD HH:mm:ss",
+              "decimals": 0,
+              "eventData": [
+                {
+                  "eventOn": -1,
+                  "hidden": false,
+                  "pattern": "zrtMP5SUcSBWPgnlBkCH-69",
+                  "style": "width",
+                  "value": "${_value} *3"
+                },
+                {
+                  "eventOn": -1,
+                  "hidden": false,
+                  "pattern": "zrtMP5SUcSBWPgnlBkCH-73",
+                  "style": "height",
+                  "value": "-${_value} * 1.2"
+                },
+                {
+                  "eventOn": -1,
+                  "hidden": false,
+                  "pattern": "zrtMP5SUcSBWPgnlBkCH-78",
+                  "style": "height",
+                  "value": "(116- ${_value}) * 1.2"
+                }
+              ],
+              "eventProp": "id",
+              "eventRegEx": false,
+              "gradient": true,
+              "hidden": false,
+              "invert": false,
+              "linkData": [],
+              "linkProp": "id",
+              "linkRegEx": true,
+              "mappingType": 1,
+              "metricType": "serie",
+              "order": 1,
+              "overlayIcon": false,
+              "pattern": "PERCENT4",
+              "rangeData": [],
+              "reduce": true,
+              "refId": "A",
+              "sanitize": false,
+              "shapeData": [
+                {
+                  "colorOn": "a",
+                  "hidden": false,
+                  "pattern": "zrtMP5SUcSBWPgnlBkCH-69",
+                  "style": "fillColor"
+                },
+                {
+                  "colorOn": "a",
+                  "hidden": false,
+                  "pattern": "zrtMP5SUcSBWPgnlBkCH-73",
+                  "style": "fillColor"
+                },
+                {
+                  "colorOn": "a",
+                  "hidden": false,
+                  "pattern": "zrtMP5SUcSBWPgnlBkCH-73",
+                  "style": "fontColor"
+                },
+                {
+                  "colorOn": "a",
+                  "hidden": false,
+                  "pattern": "zrtMP5SUcSBWPgnlBkCH-67",
+                  "style": "fontColor"
+                }
+              ],
+              "shapeProp": "id",
+              "shapeRegEx": true,
+              "stringThresholds": [
+                "/.*/",
+                "/.*/"
+              ],
+              "textData": [
+                {
+                  "hidden": false,
+                  "pattern": "zrtMP5SUcSBWPgnlBkCH-67",
+                  "textOn": "wmd",
+                  "textPattern": "/.*/",
+                  "textReplace": "content"
+                },
+                {
+                  "hidden": false,
+                  "pattern": "zrtMP5SUcSBWPgnlBkCH-73",
+                  "textOn": "wmd",
+                  "textPattern": "/.*/",
+                  "textReplace": "content"
+                }
+              ],
+              "textProp": "id",
+              "textRegEx": true,
+              "thresholds": [
+                50,
+                80
+              ],
+              "tooltip": false,
+              "tooltipColors": false,
+              "tooltipLabel": "",
+              "tooltipOn": "a",
+              "tpDirection": "v",
+              "tpGraph": true,
+              "tpGraphHigh": null,
+              "tpGraphLow": null,
+              "tpGraphScale": "linear",
+              "tpGraphSize": "100%",
+              "tpGraphType": "line",
+              "type": "number",
+              "unit": "percent",
+              "valueData": []
+            },
+            {
+              "aggregation": "current",
+              "alias": "P1",
+              "colors": [
+                "rgba(50, 172, 45, 0.97)",
+                "rgba(237, 129, 40, 0.89)",
+                "rgba(245, 54, 54, 0.9)"
+              ],
+              "column": "Time",
+              "dateFormat": "YYYY-MM-DD HH:mm:ss",
+              "decimals": 0,
+              "eventData": [
+                {
+                  "eventOn": -1,
+                  "hidden": false,
+                  "pattern": "zrtMP5SUcSBWPgnlBkCH-60",
+                  "style": "width",
+                  "value": "${_value} *3"
+                },
+                {
+                  "eventOn": -1,
+                  "hidden": false,
+                  "pattern": "zrtMP5SUcSBWPgnlBkCH-70",
+                  "style": "height",
+                  "value": "-${_value} * 1.2"
+                },
+                {
+                  "eventOn": -1,
+                  "hidden": false,
+                  "pattern": "zrtMP5SUcSBWPgnlBkCH-75",
+                  "style": "height",
+                  "value": "(100- ${_value}) * 1.2 + 19"
+                }
+              ],
+              "eventProp": "id",
+              "eventRegEx": false,
+              "gradient": false,
+              "hidden": false,
+              "invert": true,
+              "linkData": [],
+              "linkProp": "id",
+              "linkRegEx": true,
+              "mappingType": 1,
+              "metricType": "serie",
+              "order": 2,
+              "overlayIcon": false,
+              "pattern": "PERCENT1",
+              "rangeData": [],
+              "reduce": true,
+              "refId": "A",
+              "sanitize": false,
+              "shapeData": [],
+              "shapeProp": "id",
+              "shapeRegEx": true,
+              "stringThresholds": [
+                "/.*/",
+                "/.*/"
+              ],
+              "textData": [
+                {
+                  "hidden": false,
+                  "pattern": "zrtMP5SUcSBWPgnlBkCH-58",
+                  "textOn": "wmd",
+                  "textPattern": "/.*/",
+                  "textReplace": "content"
+                },
+                {
+                  "hidden": false,
+                  "pattern": "zrtMP5SUcSBWPgnlBkCH-70",
+                  "textOn": "wmd",
+                  "textPattern": "/.*/",
+                  "textReplace": "content"
+                }
+              ],
+              "textProp": "id",
+              "textRegEx": true,
+              "thresholds": [
+                50,
+                80
+              ],
+              "tooltip": false,
+              "tooltipColors": false,
+              "tooltipLabel": "",
+              "tooltipOn": "a",
+              "tpDirection": "v",
+              "tpGraph": true,
+              "tpGraphHigh": null,
+              "tpGraphLow": null,
+              "tpGraphScale": "linear",
+              "tpGraphSize": "100%",
+              "tpGraphType": "line",
+              "type": "number",
+              "unit": "percent",
+              "valueData": []
+            },
+            {
+              "aggregation": "current",
+              "alias": "P2",
+              "colors": [
+                "rgba(50, 172, 45, 0.97)",
+                "rgba(237, 129, 40, 0.89)",
+                "rgba(245, 54, 54, 0.9)"
+              ],
+              "column": "Time",
+              "dateFormat": "YYYY-MM-DD HH:mm:ss",
+              "decimals": 0,
+              "eventData": [
+                {
+                  "eventOn": -1,
+                  "hidden": false,
+                  "pattern": "zrtMP5SUcSBWPgnlBkCH-63",
+                  "style": "width",
+                  "value": "${_value} *3"
+                },
+                {
+                  "eventOn": -1,
+                  "hidden": false,
+                  "pattern": "zrtMP5SUcSBWPgnlBkCH-71",
+                  "style": "height",
+                  "value": "-${_value} * 1.2"
+                },
+                {
+                  "eventOn": -1,
+                  "hidden": false,
+                  "pattern": "zrtMP5SUcSBWPgnlBkCH-76",
+                  "style": "height",
+                  "value": "(116- ${_value}) * 1.2"
+                }
+              ],
+              "eventProp": "id",
+              "eventRegEx": false,
+              "gradient": false,
+              "hidden": false,
+              "invert": true,
+              "linkData": [],
+              "linkProp": "id",
+              "linkRegEx": true,
+              "mappingType": 1,
+              "metricType": "serie",
+              "order": 3,
+              "overlayIcon": false,
+              "pattern": "PERCENT2",
+              "rangeData": [],
+              "reduce": true,
+              "refId": "A",
+              "sanitize": false,
+              "shapeData": [],
+              "shapeProp": "id",
+              "shapeRegEx": true,
+              "stringThresholds": [
+                "/.*/",
+                "/.*/"
+              ],
+              "textData": [
+                {
+                  "hidden": false,
+                  "pattern": "zrtMP5SUcSBWPgnlBkCH-61",
+                  "textOn": "wmd",
+                  "textPattern": "/.*/",
+                  "textReplace": "content"
+                },
+                {
+                  "hidden": false,
+                  "pattern": "zrtMP5SUcSBWPgnlBkCH-71",
+                  "textOn": "wmd",
+                  "textPattern": "/.*/",
+                  "textReplace": "content"
+                }
+              ],
+              "textProp": "id",
+              "textRegEx": true,
+              "thresholds": [
+                50,
+                80
+              ],
+              "tooltip": false,
+              "tooltipColors": false,
+              "tooltipLabel": "",
+              "tooltipOn": "a",
+              "tpDirection": "v",
+              "tpGraph": true,
+              "tpGraphHigh": null,
+              "tpGraphLow": null,
+              "tpGraphScale": "linear",
+              "tpGraphSize": "100%",
+              "tpGraphType": "line",
+              "type": "number",
+              "unit": "percent",
+              "valueData": []
+            },
+            {
+              "aggregation": "current",
+              "alias": "P3",
+              "colors": [
+                "rgba(50, 172, 45, 0.97)",
+                "rgba(237, 129, 40, 0.89)",
+                "rgba(245, 54, 54, 0.9)"
+              ],
+              "column": "Time",
+              "dateFormat": "YYYY-MM-DD HH:mm:ss",
+              "decimals": 0,
+              "eventData": [
+                {
+                  "eventOn": -1,
+                  "hidden": false,
+                  "pattern": "zrtMP5SUcSBWPgnlBkCH-66",
+                  "style": "width",
+                  "value": "${_value} *3"
+                },
+                {
+                  "eventOn": -1,
+                  "hidden": false,
+                  "pattern": "zrtMP5SUcSBWPgnlBkCH-72",
+                  "style": "height",
+                  "value": "-${_value} * 1.2"
+                },
+                {
+                  "eventOn": -1,
+                  "hidden": false,
+                  "pattern": "zrtMP5SUcSBWPgnlBkCH-77",
+                  "style": "height",
+                  "value": "(116- ${_value}) * 1.2"
+                }
+              ],
+              "eventProp": "id",
+              "eventRegEx": false,
+              "gradient": false,
+              "hidden": false,
+              "invert": true,
+              "linkData": [],
+              "linkProp": "id",
+              "linkRegEx": true,
+              "mappingType": 1,
+              "metricType": "serie",
+              "order": 4,
+              "overlayIcon": false,
+              "pattern": "PERCENT3",
+              "rangeData": [],
+              "reduce": true,
+              "refId": "A",
+              "sanitize": false,
+              "shapeData": [],
+              "shapeProp": "id",
+              "shapeRegEx": true,
+              "stringThresholds": [
+                "/.*/",
+                "/.*/"
+              ],
+              "textData": [
+                {
+                  "hidden": false,
+                  "pattern": "zrtMP5SUcSBWPgnlBkCH-64",
+                  "textOn": "wmd",
+                  "textPattern": "/.*/",
+                  "textReplace": "content"
+                },
+                {
+                  "hidden": false,
+                  "pattern": "zrtMP5SUcSBWPgnlBkCH-72",
+                  "textOn": "wmd",
+                  "textPattern": "/.*/",
+                  "textReplace": "content"
+                }
+              ],
+              "textProp": "id",
+              "textRegEx": true,
+              "thresholds": [
+                50,
+                80
+              ],
+              "tooltip": false,
+              "tooltipColors": false,
+              "tooltipLabel": "",
+              "tooltipOn": "a",
+              "tpDirection": "v",
+              "tpGraph": true,
+              "tpGraphHigh": null,
+              "tpGraphLow": null,
+              "tpGraphScale": "linear",
+              "tpGraphSize": "100%",
+              "tpGraphType": "line",
+              "type": "number",
+              "unit": "percent",
+              "valueData": []
+            }
+          ]
+        },
+        "targets": [
+          {
+            "alias": "PERCENT1",
+            "max": 90,
+            "min": 10,
+            "refId": "A",
+            "scenarioId": "random_walk"
+          },
+          {
+            "alias": "PERCENT2",
+            "max": 90,
+            "min": 10,
+            "refId": "B",
+            "scenarioId": "random_walk"
+          },
+          {
+            "alias": "PERCENT3",
+            "max": 90,
+            "min": 10,
+            "refId": "C",
+            "scenarioId": "random_walk"
+          },
+          {
+            "alias": "PERCENT4",
+            "max": 90,
+            "min": 10,
+            "refId": "D",
+            "scenarioId": "random_walk"
+          },
+          {
+            "alias": "PERCENT5",
+            "max": 90,
+            "min": 10,
+            "refId": "E",
+            "scenarioId": "random_walk"
+          }
+        ],
+        "timeFrom": null,
+        "timeShift": null,
+        "title": "",
+        "type": "agenty-flowcharting-panel",
+        "valueName": "current",
+        "version": "0.8.0"
+      },
+      {
+        "datasource": null,
+        "flowchartsData": {
+          "flowcharts": [
+            {
+              "allowDrawio": false,
+              "bgColor": null,
+              "center": true,
+              "csv": "",
+              "download": false,
+              "editorTheme": "dark",
+              "editorUrl": "https://www.draw.io",
+              "enableAnim": true,
+              "grid": false,
+              "lock": true,
+              "name": "Main",
+              "scale": true,
+              "tooltip": true,
+              "type": "xml",
+              "url": "http://<YourUrl>/<Your XML/drawio file/api>",
+              "xml": "<mxGraphModel dx=\"1422\" dy=\"794\" grid=\"1\" gridSize=\"10\" guides=\"1\" tooltips=\"1\" connect=\"1\" arrows=\"1\" fold=\"1\" page=\"1\" pageScale=\"1.5\" pageWidth=\"1169\" pageHeight=\"826\" background=\"none\" math=\"0\" shadow=\"0\">\n  <root>\n    <mxCell id=\"0\" style=\";html=1;\" />\n    <mxCell id=\"1\" style=\";html=1;\" parent=\"0\" />\n    <mxCell id=\"1257a543d1cacc4b-46\" value=\"DR site 2\" style=\"whiteSpace=wrap;html=1;fillColor=#dae8fc;fontSize=14;strokeColor=none;verticalAlign=bottom;\" parent=\"1\" vertex=\"1\">\n      <mxGeometry x=\"988\" y=\"643\" width=\"514\" height=\"260\" as=\"geometry\" />\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-45\" value=\"Production site 2\" style=\"whiteSpace=wrap;html=1;fillColor=#dae8fc;fontSize=14;strokeColor=none;verticalAlign=bottom;\" parent=\"1\" vertex=\"1\">\n      <mxGeometry x=\"252\" y=\"643\" width=\"660\" height=\"260\" as=\"geometry\" />\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-44\" value=\"DR site 1\" style=\"whiteSpace=wrap;html=1;fillColor=#dae8fc;fontSize=14;strokeColor=none;verticalAlign=top;\" parent=\"1\" vertex=\"1\">\n      <mxGeometry x=\"988\" y=\"306\" width=\"514\" height=\"277\" as=\"geometry\" />\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-43\" value=\"Production site 1\" style=\"whiteSpace=wrap;html=1;fillColor=#dae8fc;fontSize=14;strokeColor=none;verticalAlign=top;\" parent=\"1\" vertex=\"1\">\n      <mxGeometry x=\"252\" y=\"307\" width=\"660\" height=\"276\" as=\"geometry\" />\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-11\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeColor=#9C9C9C;\" parent=\"1\" source=\"1257a543d1cacc4b-1\" target=\"1257a543d1cacc4b-5\" edge=\"1\">\n      <mxGeometry relative=\"1\" as=\"geometry\">\n        <Array as=\"points\">\n          <mxPoint x=\"469\" y=\"347\" />\n          <mxPoint x=\"604\" y=\"347\" />\n        </Array>\n      </mxGeometry>\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-12\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeColor=#9C9C9C;\" parent=\"1\" source=\"1257a543d1cacc4b-1\" target=\"1257a543d1cacc4b-7\" edge=\"1\">\n      <mxGeometry relative=\"1\" as=\"geometry\">\n        <Array as=\"points\">\n          <mxPoint x=\"469\" y=\"347\" />\n          <mxPoint x=\"845\" y=\"347\" />\n        </Array>\n      </mxGeometry>\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-13\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeColor=#9C9C9C;\" parent=\"1\" source=\"1257a543d1cacc4b-1\" target=\"1257a543d1cacc4b-2\" edge=\"1\">\n      <mxGeometry relative=\"1\" as=\"geometry\">\n        <mxPoint x=\"1452\" y=\"267\" as=\"targetPoint\" />\n        <Array as=\"points\">\n          <mxPoint x=\"469\" y=\"348\" />\n          <mxPoint x=\"1449\" y=\"348\" />\n        </Array>\n      </mxGeometry>\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-1\" value=\"Veeam backup server\" style=\"shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;shape=mxgraph.veeam.2d.veeam_backup_and_replication_server;fontSize=14;align=center;\" parent=\"1\" vertex=\"1\">\n      <mxGeometry x=\"432\" y=\"203\" width=\"74\" height=\"72\" as=\"geometry\" />\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-17\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeColor=#9C9C9C;\" parent=\"1\" source=\"1257a543d1cacc4b-2\" target=\"1257a543d1cacc4b-8\" edge=\"1\">\n      <mxGeometry relative=\"1\" as=\"geometry\">\n        <Array as=\"points\">\n          <mxPoint x=\"1449\" y=\"348\" />\n          <mxPoint x=\"1035\" y=\"348\" />\n        </Array>\n      </mxGeometry>\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-2\" value=\"Veeam backup server\" style=\"shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;shape=mxgraph.veeam.2d.veeam_backup_and_replication_server;fontSize=14;align=center;\" parent=\"1\" vertex=\"1\">\n      <mxGeometry x=\"1411.9999999999998\" y=\"203\" width=\"74\" height=\"72\" as=\"geometry\" />\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-10\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeColor=#9C9C9C;\" parent=\"1\" source=\"1257a543d1cacc4b-3\" target=\"1257a543d1cacc4b-1\" edge=\"1\">\n      <mxGeometry relative=\"1\" as=\"geometry\">\n        <mxPoint x=\"452\" y=\"307\" as=\"targetPoint\" />\n        <Array as=\"points\">\n          <mxPoint x=\"298\" y=\"347\" />\n          <mxPoint x=\"469\" y=\"347\" />\n        </Array>\n      </mxGeometry>\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-3\" value=\"\" style=\"shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.veeam.2d.backup_repository;fontSize=14;\" parent=\"1\" vertex=\"1\">\n      <mxGeometry x=\"271.9999999999999\" y=\"489\" width=\"52\" height=\"48\" as=\"geometry\" />\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-5\" value=\"Source ESX host\" style=\"shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.veeam.2d.vmware_host;fontSize=14;\" parent=\"1\" vertex=\"1\">\n      <mxGeometry x=\"542\" y=\"417\" width=\"124\" height=\"120\" as=\"geometry\" />\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-6\" value=\"Source ESX host\" style=\"shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.veeam.2d.hyper_v_host;fontFamily=Helvetica;fontSize=14;fontColor=#000000;align=center;\" parent=\"1\" vertex=\"1\">\n      <mxGeometry x=\"1241.9999999999998\" y=\"417\" width=\"124\" height=\"120\" as=\"geometry\" />\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-14\" style=\"rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeColor=#9C9C9C;\" parent=\"1\" source=\"1257a543d1cacc4b-7\" target=\"1257a543d1cacc4b-9\" edge=\"1\">\n      <mxGeometry relative=\"1\" as=\"geometry\" />\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-39\" style=\"edgeStyle=elbowEdgeStyle;rounded=0;elbow=vertical;html=1;startSize=10;endArrow=none;endFill=0;endSize=10;jettySize=auto;orthogonalLoop=1;strokeColor=#9C9C9C;fontSize=14;entryX=0.841;entryY=0.917;entryPerimeter=0;\" parent=\"1\" source=\"1257a543d1cacc4b-7\" target=\"1257a543d1cacc4b-5\" edge=\"1\">\n      <mxGeometry relative=\"1\" as=\"geometry\">\n        <mxPoint x=\"648\" y=\"528\" as=\"targetPoint\" />\n        <Array as=\"points\">\n          <mxPoint x=\"744\" y=\"527\" />\n        </Array>\n      </mxGeometry>\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-7\" value=\"VMware&amp;nbsp;&lt;div&gt;backup&amp;nbsp;&lt;span&gt;proxy&lt;/span&gt;&lt;/div&gt;\" style=\"shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.veeam.2d.proxy;fontSize=14;\" parent=\"1\" vertex=\"1\">\n      <mxGeometry x=\"822\" y=\"491\" width=\"46\" height=\"46\" as=\"geometry\" />\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-16\" style=\"edgeStyle=elbowEdgeStyle;rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeColor=#9C9C9C;elbow=vertical;entryX=0.164;entryY=0.919;entryPerimeter=0;\" parent=\"1\" source=\"1257a543d1cacc4b-8\" target=\"1257a543d1cacc4b-6\" edge=\"1\">\n      <mxGeometry relative=\"1\" as=\"geometry\">\n        <Array as=\"points\">\n          <mxPoint x=\"1150\" y=\"527\" />\n        </Array>\n      </mxGeometry>\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-8\" value=\"VMware&amp;nbsp;&lt;div&gt;backup&amp;nbsp;&lt;span&gt;proxy&lt;/span&gt;&lt;/div&gt;\" style=\"shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.veeam.2d.proxy;fontSize=14;\" parent=\"1\" vertex=\"1\">\n      <mxGeometry x=\"1012.0000000000002\" y=\"491\" width=\"46\" height=\"46\" as=\"geometry\" />\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-15\" style=\"rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeColor=#9C9C9C;\" parent=\"1\" source=\"1257a543d1cacc4b-9\" target=\"1257a543d1cacc4b-8\" edge=\"1\">\n      <mxGeometry relative=\"1\" as=\"geometry\" />\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-9\" value=\"WAN\" style=\"shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=middle;verticalAlign=middle;shape=mxgraph.veeam.2d.cloud;fontSize=14;align=center;\" parent=\"1\" vertex=\"1\">\n      <mxGeometry x=\"922\" y=\"583\" width=\"66\" height=\"46\" as=\"geometry\" />\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-18\" value=\"Transport&lt;div&gt;service&lt;/div&gt;\" style=\"shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;shape=mxgraph.veeam.2d.data_mover;fontSize=14;align=left;\" parent=\"1\" vertex=\"1\">\n      <mxGeometry x=\"312\" y=\"417\" width=\"38\" height=\"38\" as=\"geometry\" />\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-19\" value=\"Transport&lt;div&gt;service&lt;/div&gt;\" style=\"shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=left;verticalLabelPosition=middle;verticalAlign=middle;shape=mxgraph.veeam.2d.data_mover;fontSize=14;align=right;\" parent=\"1\" vertex=\"1\">\n      <mxGeometry x=\"792\" y=\"417\" width=\"38\" height=\"38\" as=\"geometry\" />\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-20\" value=\"Transport&lt;div&gt;service&lt;/div&gt;\" style=\"shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;shape=mxgraph.veeam.2d.data_mover;fontSize=14;align=left;\" parent=\"1\" vertex=\"1\">\n      <mxGeometry x=\"1052\" y=\"417\" width=\"38\" height=\"38\" as=\"geometry\" />\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-31\" style=\"edgeStyle=elbowEdgeStyle;rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeColor=#9C9C9C;elbow=vertical;\" parent=\"1\" source=\"1257a543d1cacc4b-21\" target=\"1257a543d1cacc4b-22\" edge=\"1\">\n      <mxGeometry relative=\"1\" as=\"geometry\" />\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-21\" value=\"\" style=\"shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.veeam.2d.backup_repository_2;fontSize=14;\" parent=\"1\" vertex=\"1\">\n      <mxGeometry x=\"269\" y=\"690\" width=\"58\" height=\"50\" as=\"geometry\" />\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-30\" style=\"edgeStyle=elbowEdgeStyle;rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeColor=#9C9C9C;elbow=vertical;\" parent=\"1\" source=\"1257a543d1cacc4b-22\" target=\"1257a543d1cacc4b-23\" edge=\"1\">\n      <mxGeometry relative=\"1\" as=\"geometry\" />\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-22\" value=\"Source ESX host\" style=\"shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;shape=mxgraph.veeam.2d.vmware_host;fontSize=14;align=center;\" parent=\"1\" vertex=\"1\">\n      <mxGeometry x=\"542\" y=\"690\" width=\"124\" height=\"120\" as=\"geometry\" />\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-27\" style=\"rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeColor=#9C9C9C;\" parent=\"1\" source=\"1257a543d1cacc4b-23\" target=\"1257a543d1cacc4b-9\" edge=\"1\">\n      <mxGeometry relative=\"1\" as=\"geometry\" />\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-23\" value=\"VMware&amp;nbsp;&lt;div&gt;backup&amp;nbsp;&lt;span&gt;proxy&lt;/span&gt;&lt;/div&gt;\" style=\"shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;shape=mxgraph.veeam.2d.proxy;fontSize=14;align=center;\" parent=\"1\" vertex=\"1\">\n      <mxGeometry x=\"822\" y=\"690\" width=\"46\" height=\"46\" as=\"geometry\" />\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-26\" style=\"rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeColor=#9C9C9C;\" parent=\"1\" source=\"1257a543d1cacc4b-24\" target=\"1257a543d1cacc4b-9\" edge=\"1\">\n      <mxGeometry relative=\"1\" as=\"geometry\" />\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-33\" style=\"edgeStyle=elbowEdgeStyle;rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeColor=#9C9C9C;elbow=vertical;\" parent=\"1\" source=\"1257a543d1cacc4b-24\" target=\"1257a543d1cacc4b-25\" edge=\"1\">\n      <mxGeometry relative=\"1\" as=\"geometry\" />\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-24\" value=\"VMware&amp;nbsp;&lt;div&gt;backup&amp;nbsp;&lt;span&gt;proxy&lt;/span&gt;&lt;/div&gt;\" style=\"shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;shape=mxgraph.veeam.2d.proxy;fontSize=14;align=center;\" parent=\"1\" vertex=\"1\">\n      <mxGeometry x=\"1012.0000000000002\" y=\"690.0000000000002\" width=\"46\" height=\"46\" as=\"geometry\" />\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-25\" value=\"Source ESX host\" style=\"shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;shape=mxgraph.veeam.2d.hyper_v_vmware_host;fontSize=14;align=center;\" parent=\"1\" vertex=\"1\">\n      <mxGeometry x=\"1241.9999999999998\" y=\"690\" width=\"124\" height=\"120\" as=\"geometry\" />\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-32\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeColor=#9C9C9C;\" parent=\"1\" source=\"1257a543d1cacc4b-28\" target=\"1257a543d1cacc4b-21\" edge=\"1\">\n      <mxGeometry relative=\"1\" as=\"geometry\">\n        <mxPoint x=\"312\" y=\"843\" as=\"targetPoint\" />\n        <Array as=\"points\">\n          <mxPoint x=\"469\" y=\"853\" />\n          <mxPoint x=\"298\" y=\"853\" />\n        </Array>\n      </mxGeometry>\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-37\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeColor=#9C9C9C;\" parent=\"1\" source=\"1257a543d1cacc4b-28\" target=\"1257a543d1cacc4b-22\" edge=\"1\">\n      <mxGeometry relative=\"1\" as=\"geometry\">\n        <Array as=\"points\">\n          <mxPoint x=\"469\" y=\"853\" />\n          <mxPoint x=\"605\" y=\"853\" />\n        </Array>\n      </mxGeometry>\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-38\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;entryX=0.202;entryY=1.004;entryPerimeter=0;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeColor=#9C9C9C;\" parent=\"1\" source=\"1257a543d1cacc4b-28\" target=\"1257a543d1cacc4b-23\" edge=\"1\">\n      <mxGeometry relative=\"1\" as=\"geometry\">\n        <Array as=\"points\">\n          <mxPoint x=\"516\" y=\"853\" />\n          <mxPoint x=\"845\" y=\"853\" />\n          <mxPoint x=\"845\" y=\"737\" />\n        </Array>\n      </mxGeometry>\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-28\" value=\"Veeam backup server\" style=\"shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.veeam.2d.veeam_backup_and_replication_server;fontSize=14;\" parent=\"1\" vertex=\"1\">\n      <mxGeometry x=\"432\" y=\"963\" width=\"74\" height=\"72\" as=\"geometry\" />\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-34\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeColor=#9C9C9C;\" parent=\"1\" source=\"1257a543d1cacc4b-29\" target=\"1257a543d1cacc4b-25\" edge=\"1\">\n      <mxGeometry relative=\"1\" as=\"geometry\">\n        <Array as=\"points\">\n          <mxPoint x=\"1449\" y=\"853\" />\n          <mxPoint x=\"1305\" y=\"853\" />\n        </Array>\n      </mxGeometry>\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-35\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeColor=#9C9C9C;\" parent=\"1\" source=\"1257a543d1cacc4b-29\" target=\"1257a543d1cacc4b-24\" edge=\"1\">\n      <mxGeometry relative=\"1\" as=\"geometry\">\n        <Array as=\"points\">\n          <mxPoint x=\"1449\" y=\"853\" />\n          <mxPoint x=\"1035\" y=\"853\" />\n        </Array>\n      </mxGeometry>\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-29\" value=\"Veeam backup server\" style=\"shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.veeam.2d.veeam_backup_and_replication_server;fontSize=14;\" parent=\"1\" vertex=\"1\">\n      <mxGeometry x=\"1411.9999999999995\" y=\"963\" width=\"74\" height=\"72\" as=\"geometry\" />\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-40\" value=\"Transport&lt;div&gt;service&lt;/div&gt;\" style=\"shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;shape=mxgraph.veeam.2d.data_mover;fontSize=14;align=left;\" parent=\"1\" vertex=\"1\">\n      <mxGeometry x=\"312\" y=\"763\" width=\"38\" height=\"38\" as=\"geometry\" />\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-41\" value=\"Transport&lt;div&gt;service&lt;/div&gt;\" style=\"shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=left;verticalLabelPosition=middle;verticalAlign=middle;shape=mxgraph.veeam.2d.data_mover;fontSize=14;align=right;\" parent=\"1\" vertex=\"1\">\n      <mxGeometry x=\"792\" y=\"763\" width=\"38\" height=\"38\" as=\"geometry\" />\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-42\" value=\"Transport&lt;div&gt;service&lt;/div&gt;\" style=\"shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=right;verticalLabelPosition=middle;verticalAlign=middle;shape=mxgraph.veeam.2d.data_mover;fontSize=14;align=left;\" parent=\"1\" vertex=\"1\">\n      <mxGeometry x=\"1052\" y=\"763\" width=\"38\" height=\"38\" as=\"geometry\" />\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-49\" value=\"\" style=\"line;strokeWidth=3;html=1;fillColor=none;gradientColor=none;fontSize=14;strokeColor=#808080;\" parent=\"1\" vertex=\"1\">\n      <mxGeometry x=\"282\" y=\"342\" width=\"1200\" height=\"10\" as=\"geometry\" />\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-50\" value=\"\" style=\"line;strokeWidth=3;html=1;fillColor=none;gradientColor=none;fontSize=14;strokeColor=#808080;\" parent=\"1\" vertex=\"1\">\n      <mxGeometry x=\"282\" y=\"849\" width=\"1200\" height=\"10\" as=\"geometry\" />\n    </mxCell>\n    <mxCell id=\"1257a543d1cacc4b-51\" style=\"edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;startSize=10;endSize=10;jettySize=auto;orthogonalLoop=1;fontSize=14;endArrow=none;endFill=0;strokeColor=#9C9C9C;\" parent=\"1\" source=\"1257a543d1cacc4b-29\" target=\"1257a543d1cacc4b-50\" edge=\"1\">\n      <mxGeometry relative=\"1\" as=\"geometry\">\n        <mxPoint x=\"516.3529411764707\" y=\"963\" as=\"targetPoint\" />\n        <mxPoint x=\"1449.294117647059\" y=\"963\" as=\"sourcePoint\" />\n        <Array as=\"points\">\n          <mxPoint x=\"1449\" y=\"853\" />\n        </Array>\n      </mxGeometry>\n    </mxCell>\n  </root>\n</mxGraphModel>\n",
+              "zoom": "100%"
+            }
+          ]
+        },
+        "format": "short",
+        "graphId": "flowchart_6",
+        "gridPos": {
+          "h": 21,
+          "w": 12,
+          "x": 12,
+          "y": 0
+        },
+        "id": 6,
+        "newFlag": false,
+        "rulesData": {
+          "rulesData": [
+            {
+              "aggregation": "current",
+              "alias": "myRule",
+              "colors": [
+                "rgba(245, 54, 54, 0.9)",
+                "rgba(237, 129, 40, 0.89)",
+                "rgba(50, 172, 45, 0.97)"
+              ],
+              "column": "Time",
+              "dateFormat": "YYYY-MM-DD HH:mm:ss",
+              "decimals": 2,
+              "eventData": [],
+              "eventProp": "id",
+              "eventRegEx": false,
+              "gradient": false,
+              "hidden": false,
+              "invert": false,
+              "linkData": [],
+              "linkProp": "id",
+              "linkRegEx": true,
+              "mappingType": 1,
+              "metricType": "serie",
+              "order": 1,
+              "overlayIcon": false,
+              "pattern": ".*",
+              "rangeData": [],
+              "reduce": true,
+              "refId": "A",
+              "sanitize": false,
+              "shapeData": [],
+              "shapeProp": "id",
+              "shapeRegEx": true,
+              "stringThresholds": [
+                "/.*/",
+                "/.*/"
+              ],
+              "textData": [],
+              "textProp": "id",
+              "textRegEx": true,
+              "thresholds": [
+                50,
+                80
+              ],
+              "tooltip": false,
+              "tooltipColors": false,
+              "tooltipLabel": "",
+              "tooltipOn": "a",
+              "tpDirection": "v",
+              "tpGraph": true,
+              "tpGraphHigh": null,
+              "tpGraphLow": null,
+              "tpGraphScale": "linear",
+              "tpGraphSize": "100%",
+              "tpGraphType": "line",
+              "type": "number",
+              "unit": "short",
+              "valueData": []
+            }
+          ]
+        },
+        "targets": [
+          {
+            "refId": "A",
+            "scenarioId": "random_walk"
+          }
+        ],
+        "timeFrom": null,
+        "timeShift": null,
+        "title": "Panel Title",
+        "type": "agenty-flowcharting-panel",
+        "valueName": "current",
+        "version": "0.8.0"
+      },
+      {
+        "aliasColors": {},
+        "bars": false,
+        "dashLength": 10,
+        "dashes": false,
+        "datasource": null,
+        "fill": 1,
+        "fillGradient": 0,
+        "gridPos": {
+          "h": 12,
+          "w": 12,
+          "x": 0,
+          "y": 9
+        },
+        "hiddenSeries": false,
+        "id": 4,
+        "legend": {
+          "avg": false,
+          "current": false,
+          "max": false,
+          "min": false,
+          "show": true,
+          "total": false,
+          "values": false
+        },
+        "lines": true,
+        "linewidth": 1,
+        "nullPointMode": "null",
+        "options": {
+          "dataLinks": []
+        },
+        "percentage": false,
+        "pointradius": 2,
+        "points": false,
+        "renderer": "flot",
+        "seriesOverrides": [],
+        "spaceLength": 10,
+        "stack": false,
+        "steppedLine": false,
+        "targets": [
+          {
+            "alias": "P1",
+            "max": 90,
+            "min": 10,
+            "noise": null,
+            "refId": "A",
+            "scenarioId": "random_walk",
+            "spread": null
+          },
+          {
+            "alias": "P2",
+            "max": 90,
+            "min": 10,
+            "noise": null,
+            "refId": "B",
+            "scenarioId": "random_walk",
+            "spread": null
+          },
+          {
+            "alias": "P3",
+            "max": 90,
+            "min": 10,
+            "noise": null,
+            "refId": "C",
+            "scenarioId": "random_walk",
+            "spread": null
+          },
+          {
+            "alias": "P4",
+            "max": 90,
+            "min": 10,
+            "noise": null,
+            "refId": "D",
+            "scenarioId": "random_walk",
+            "spread": null
+          }
+        ],
+        "thresholds": [],
+        "timeFrom": null,
+        "timeRegions": [],
+        "timeShift": null,
+        "title": "",
+        "tooltip": {
+          "shared": true,
+          "sort": 0,
+          "value_type": "individual"
+        },
+        "type": "graph",
+        "xaxis": {
+          "buckets": null,
+          "mode": "time",
+          "name": null,
+          "show": true,
+          "values": []
+        },
+        "yaxes": [
+          {
+            "format": "short",
+            "label": null,
+            "logBase": 1,
+            "max": null,
+            "min": null,
+            "show": true
+          },
+          {
+            "format": "short",
+            "label": null,
+            "logBase": 1,
+            "max": null,
+            "min": null,
+            "show": true
+          }
+        ],
+        "yaxis": {
+          "align": false,
+          "alignLevel": null
+        }
+      }
+    ],
+    "refresh": "",
+    "schemaVersion": 22,
+    "style": "dark",
+    "tags": [],
+    "templating": {
+      "list": []
+    },
+    "time": {
+      "from": "now-6h",
+      "to": "now"
+    },
+    "timepicker": {
+      "refresh_intervals": [
+        "5s",
+        "10s",
+        "30s",
+        "1m",
+        "5m",
+        "15m",
+        "30m",
+        "1h",
+        "2h",
+        "1d"
+      ]
+    },
+    "timezone": "",
+    "title": "EVENTS - Progress BAR and cie",
+    "uid": "KNGAfH3Zk",
+    "variables": {
+      "list": []
+    },
+    "version": 10
+  }

@@ -1,0 +1,907 @@
+{
+    "annotations": {
+      "list": [
+        {
+          "builtIn": 1,
+          "datasource": "-- Grafana --",
+          "enable": true,
+          "hide": true,
+          "iconColor": "rgba(0, 211, 255, 1)",
+          "name": "Annotations & Alerts",
+          "type": "dashboard"
+        }
+      ]
+    },
+    "editable": true,
+    "gnetId": null,
+    "graphTooltip": 0,
+    "id": 25,
+    "links": [],
+    "panels": [
+      {
+        "datasource": null,
+        "flowchartsData": {
+          "flowcharts": [
+            {
+              "allowDrawio": false,
+              "bgColor": null,
+              "center": true,
+              "csv": "",
+              "download": false,
+              "editorTheme": "kennedy",
+              "editorUrl": "https://www.draw.io",
+              "enableAnim": true,
+              "grid": false,
+              "lock": true,
+              "name": "Main",
+              "scale": true,
+              "tooltip": true,
+              "type": "xml",
+              "url": "http://<YourUrl>/<Your XML/drawio file/api>",
+              "xml": "<mxfile host=\"www.draw.io\" modified=\"2020-04-14T23:03:11.472Z\" agent=\"5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36\" etag=\"96naXJ_O7Ju9MJexGJzP\" version=\"12.9.12\"><diagram id=\"Z2elCWnktJWJO5cqm4Al\" name=\"Page-1\">7Vpdc6IwFP01vnb4Rh4LavuwO9upD/ucQoRMA2FCqnZ//SaSyEfQtVOLu7riA9xcSHLOuZfc6MSO8u0DBWX2nSQQTywj2U7s2cSyTMeyJuJrJO+1Zer4tSGlKJFOjWGJfkFpNKT1DSWw6jgyQjBDZdcYk6KAMevYAKVk03VbEdzttQQp1AzLGGDd+hMlLJOzsPzG/ghRmqmeTS+oW3KgnOVMqgwkZNMy2fOJHVFCWH2WbyOIBXgKl/q+xYHW/cAoLNgpN9iSiTXAb3JycmDsXc02AVUGhb8xscM1pAxxJL6BF4ifSIUYIgVveyGMkbzlcI9RKhoYKbkVyKuYjwtSbuATL8Xz820qNHKX5gm+qzDnlc5QFVPIeGv4Aijvg7u5ou+KUfIKI4IJ3Y3MNhbBzJ3yFlKCGDGhJtNoPBU3HNVwhTAeujMDRYKhlJhp1COrKREXK1Iw1WjJ69ZjVrsPt+u4SyoEHHDbMkkeHiDJIaPv3EW2OlISMiZMz79za8um0ZiphJO19OVIPyBlne6f3TDPTyT5B4TgaEJ4oiSlsKq4NQRUkwWfFhMAshwLdDR+ClLAHvDSpImhr5kcJYnoJtxkiMElJ1f0ueFC4TZK3opkr8c2Qb5OUGiI4zwETXsEKSpa9DgD7Ci3T7Hjauw8EwZ2sXfzvFyUGG8gf3pYEJCgNT9NxWmobC9UmZSFd9By1MhsQDUPwH6QZ46yZ4pDy4f2mXDXMpaO+2C+8s4BvK8BH2JUvP4PB+eS4TDVWIn4G5avpixjuXvj3zw93iXpCU7JVtFVZivnktlK9X0c+NlVAu9dFHhTA36fkH7IouHmU1IvI9kjZiRnqP7UAmN+ocDwfcOIosHASDGoKnlfr7YEwDB2ReGhYrGpVoNzvfN7DI4aYrZG4XzNpyLqxvsC5bJKMXQOd2aWiVhc4X8gDi1HJ3URiUP5ycEPbMN8fHVtdzl1dUot/6uiUt8MkPtZfz1HYxeboyZLfRdgIFkurnIVcdkUp1f59fRuPhz6xeao4aBvAQyEw8NVhkO/mhk3HPQqf6Ekd/MR0a/vR42Ik+r7x6uMiH6ZOWpEqMVZu8zkEgOo4Mrto1htUI7BTuMVA3S/urSHQAtMcRwBTUNoAMdT6wbXPhGz4AhmsrNnGDNeaGP4od6Cociwu50BzPNBARgMhRwrjaf9NE+jTl/r6ozJHytBzAQvf1L+ScS4xnFm3K6a9Z8C7QGonHNoWd8ymW9LUCT8xphgDMrqOtL8pyKnl+Wd4MuyPL9s/g9QC7z5V4U9/w0=</diagram></mxfile>",
+              "zoom": "100%"
+            }
+          ]
+        },
+        "format": "short",
+        "graphId": "flowchart_2",
+        "gridPos": {
+          "h": 26,
+          "w": 24,
+          "x": 0,
+          "y": 0
+        },
+        "id": 2,
+        "newFlag": false,
+        "rulesData": {
+          "rulesData": [
+            {
+              "aggregation": "current",
+              "alias": "FORM",
+              "colors": [
+                "rgba(245, 54, 54, 0.9)",
+                "rgba(237, 129, 40, 0.89)",
+                "rgba(50, 172, 45, 0.97)"
+              ],
+              "column": "Time",
+              "dateFormat": "YYYY-MM-DD HH:mm:ss",
+              "decimals": 0,
+              "eventData": [
+                {
+                  "eventOn": 2,
+                  "hidden": false,
+                  "pattern": "40",
+                  "style": "shape",
+                  "value": "ellipse"
+                },
+                {
+                  "eventOn": 1,
+                  "hidden": false,
+                  "pattern": "40",
+                  "style": "shape",
+                  "value": "triangle"
+                }
+              ],
+              "eventProp": "id",
+              "eventRegEx": false,
+              "gradient": false,
+              "hidden": false,
+              "invert": false,
+              "linkData": [],
+              "linkProp": "id",
+              "linkRegEx": true,
+              "mappingType": 1,
+              "metricType": "serie",
+              "order": 1,
+              "overlayIcon": false,
+              "pattern": "FORM",
+              "rangeData": [],
+              "reduce": true,
+              "refId": "A",
+              "sanitize": false,
+              "shapeData": [
+                {
+                  "colorOn": "a",
+                  "hidden": false,
+                  "pattern": "40",
+                  "style": "fillColor"
+                }
+              ],
+              "shapeProp": "id",
+              "shapeRegEx": true,
+              "stringThresholds": [
+                "/.*/",
+                "/.*/"
+              ],
+              "textData": [
+                {
+                  "hidden": false,
+                  "pattern": "40",
+                  "textOn": "wmd",
+                  "textPattern": "/VAL/",
+                  "textReplace": "content"
+                }
+              ],
+              "textProp": "id",
+              "textRegEx": true,
+              "thresholds": [
+                33,
+                66
+              ],
+              "tooltip": false,
+              "tooltipColors": false,
+              "tooltipLabel": "",
+              "tooltipOn": "a",
+              "tpDirection": "v",
+              "tpGraph": true,
+              "tpGraphHigh": null,
+              "tpGraphLow": null,
+              "tpGraphScale": "linear",
+              "tpGraphSize": "100%",
+              "tpGraphType": "line",
+              "type": "number",
+              "unit": "short",
+              "valueData": []
+            },
+            {
+              "aggregation": "current",
+              "alias": "BLINK",
+              "colors": [
+                "rgba(245, 54, 54, 0.9)",
+                "rgba(237, 129, 40, 0.89)",
+                "rgba(50, 172, 45, 0.97)"
+              ],
+              "column": "Time",
+              "dateFormat": "YYYY-MM-DD HH:mm:ss",
+              "decimals": 0,
+              "eventData": [
+                {
+                  "eventOn": 2,
+                  "hidden": false,
+                  "pattern": "39",
+                  "style": "blink",
+                  "value": "300"
+                }
+              ],
+              "eventProp": "id",
+              "eventRegEx": false,
+              "gradient": false,
+              "hidden": false,
+              "invert": false,
+              "linkData": [],
+              "linkProp": "id",
+              "linkRegEx": true,
+              "mappingType": 1,
+              "metricType": "serie",
+              "order": 2,
+              "overlayIcon": false,
+              "pattern": "BLINK",
+              "rangeData": [],
+              "reduce": true,
+              "refId": "A",
+              "sanitize": false,
+              "shapeData": [
+                {
+                  "colorOn": "a",
+                  "hidden": false,
+                  "pattern": "39",
+                  "style": "fillColor"
+                }
+              ],
+              "shapeProp": "id",
+              "shapeRegEx": true,
+              "stringThresholds": [
+                "/.*/",
+                "/.*/"
+              ],
+              "textData": [
+                {
+                  "hidden": false,
+                  "pattern": "39",
+                  "textOn": "wmd",
+                  "textPattern": "/VAL/",
+                  "textReplace": "content"
+                }
+              ],
+              "textProp": "id",
+              "textRegEx": true,
+              "thresholds": [
+                50,
+                80
+              ],
+              "tooltip": false,
+              "tooltipColors": false,
+              "tooltipLabel": "",
+              "tooltipOn": "a",
+              "tpDirection": "v",
+              "tpGraph": true,
+              "tpGraphHigh": null,
+              "tpGraphLow": null,
+              "tpGraphScale": "linear",
+              "tpGraphSize": "100%",
+              "tpGraphType": "line",
+              "type": "number",
+              "unit": "short",
+              "valueData": []
+            },
+            {
+              "aggregation": "current",
+              "alias": "ROTATION",
+              "colors": [
+                "rgba(245, 54, 54, 0.9)",
+                "rgba(237, 129, 40, 0.89)",
+                "rgba(50, 172, 45, 0.97)"
+              ],
+              "column": "Time",
+              "dateFormat": "YYYY-MM-DD HH:mm:ss",
+              "decimals": 0,
+              "eventData": [
+                {
+                  "eventOn": 0,
+                  "hidden": false,
+                  "pattern": "36",
+                  "style": "rotation",
+                  "value": "${_value}"
+                },
+                {
+                  "eventOn": 1,
+                  "hidden": false,
+                  "pattern": "36",
+                  "style": "rotation",
+                  "value": "${_value}"
+                },
+                {
+                  "eventOn": 2,
+                  "hidden": false,
+                  "pattern": "36",
+                  "style": "rotation",
+                  "value": "${_value}"
+                }
+              ],
+              "eventProp": "id",
+              "eventRegEx": false,
+              "gradient": false,
+              "hidden": false,
+              "invert": false,
+              "linkData": [],
+              "linkProp": "id",
+              "linkRegEx": true,
+              "mappingType": 1,
+              "metricType": "serie",
+              "order": 3,
+              "overlayIcon": false,
+              "pattern": "ROTATION",
+              "rangeData": [],
+              "reduce": true,
+              "refId": "A",
+              "sanitize": false,
+              "shapeData": [
+                {
+                  "colorOn": "a",
+                  "hidden": false,
+                  "pattern": "36",
+                  "style": "fillColor"
+                }
+              ],
+              "shapeProp": "id",
+              "shapeRegEx": true,
+              "stringThresholds": [
+                "/.*/",
+                "/.*/"
+              ],
+              "textData": [
+                {
+                  "hidden": false,
+                  "pattern": "36",
+                  "textOn": "wmd",
+                  "textPattern": "/VAL/",
+                  "textReplace": "content"
+                }
+              ],
+              "textProp": "id",
+              "textRegEx": true,
+              "thresholds": [
+                50,
+                80
+              ],
+              "tooltip": false,
+              "tooltipColors": false,
+              "tooltipLabel": "",
+              "tooltipOn": "a",
+              "tpDirection": "v",
+              "tpGraph": true,
+              "tpGraphHigh": null,
+              "tpGraphLow": null,
+              "tpGraphScale": "linear",
+              "tpGraphSize": "100%",
+              "tpGraphType": "line",
+              "type": "number",
+              "unit": "short",
+              "valueData": []
+            },
+            {
+              "aggregation": "current",
+              "alias": "PROGRESS BAR",
+              "colors": [
+                "rgba(245, 54, 54, 0.9)",
+                "rgba(237, 129, 40, 0.89)",
+                "rgba(50, 172, 45, 0.97)"
+              ],
+              "column": "Time",
+              "dateFormat": "YYYY-MM-DD HH:mm:ss",
+              "decimals": 0,
+              "eventData": [
+                {
+                  "eventOn": -1,
+                  "hidden": false,
+                  "pattern": "32",
+                  "style": "barPos",
+                  "value": "${_value}"
+                }
+              ],
+              "eventProp": "id",
+              "eventRegEx": false,
+              "gradient": true,
+              "hidden": false,
+              "invert": false,
+              "linkData": [],
+              "linkProp": "id",
+              "linkRegEx": true,
+              "mappingType": 1,
+              "metricType": "serie",
+              "order": 4,
+              "overlayIcon": false,
+              "pattern": "BAR",
+              "rangeData": [],
+              "reduce": true,
+              "refId": "A",
+              "sanitize": false,
+              "shapeData": [
+                {
+                  "colorOn": "a",
+                  "hidden": false,
+                  "pattern": "32",
+                  "style": "fillColor"
+                },
+                {
+                  "colorOn": "a",
+                  "hidden": false,
+                  "pattern": "32",
+                  "style": "strokeColor"
+                }
+              ],
+              "shapeProp": "id",
+              "shapeRegEx": true,
+              "stringThresholds": [
+                "/.*/",
+                "/.*/"
+              ],
+              "textData": [],
+              "textProp": "id",
+              "textRegEx": true,
+              "thresholds": [
+                33,
+                66
+              ],
+              "tooltip": false,
+              "tooltipColors": false,
+              "tooltipLabel": "",
+              "tooltipOn": "a",
+              "tpDirection": "v",
+              "tpGraph": true,
+              "tpGraphHigh": null,
+              "tpGraphLow": null,
+              "tpGraphScale": "linear",
+              "tpGraphSize": "100%",
+              "tpGraphType": "line",
+              "type": "number",
+              "unit": "short",
+              "valueData": []
+            },
+            {
+              "aggregation": "current",
+              "alias": "WIDTH",
+              "colors": [
+                "rgba(245, 54, 54, 0.9)",
+                "rgba(237, 129, 40, 0.89)",
+                "rgba(50, 172, 45, 0.97)"
+              ],
+              "column": "Time",
+              "dateFormat": "YYYY-MM-DD HH:mm:ss",
+              "decimals": 0,
+              "eventData": [
+                {
+                  "eventOn": -1,
+                  "hidden": false,
+                  "pattern": "47",
+                  "style": "width",
+                  "value": "${_value}"
+                }
+              ],
+              "eventProp": "id",
+              "eventRegEx": false,
+              "gradient": false,
+              "hidden": false,
+              "invert": false,
+              "linkData": [],
+              "linkProp": "id",
+              "linkRegEx": true,
+              "mappingType": 1,
+              "metricType": "serie",
+              "order": 5,
+              "overlayIcon": false,
+              "pattern": "WIDTH",
+              "rangeData": [],
+              "reduce": true,
+              "refId": "A",
+              "sanitize": false,
+              "shapeData": [
+                {
+                  "colorOn": "a",
+                  "hidden": false,
+                  "pattern": "47",
+                  "style": "fillColor"
+                }
+              ],
+              "shapeProp": "id",
+              "shapeRegEx": true,
+              "stringThresholds": [
+                "/.*/",
+                "/.*/"
+              ],
+              "textData": [
+                {
+                  "hidden": false,
+                  "pattern": "47",
+                  "textOn": "wmd",
+                  "textPattern": "/.*/",
+                  "textReplace": "content"
+                }
+              ],
+              "textProp": "id",
+              "textRegEx": true,
+              "thresholds": [
+                33,
+                66
+              ],
+              "tooltip": false,
+              "tooltipColors": false,
+              "tooltipLabel": "",
+              "tooltipOn": "a",
+              "tpDirection": "v",
+              "tpGraph": true,
+              "tpGraphHigh": null,
+              "tpGraphLow": null,
+              "tpGraphScale": "linear",
+              "tpGraphSize": "100%",
+              "tpGraphType": "line",
+              "type": "number",
+              "unit": "short",
+              "valueData": []
+            },
+            {
+              "aggregation": "current",
+              "alias": "HEIGHT",
+              "colors": [
+                "rgba(245, 54, 54, 0.9)",
+                "rgba(237, 129, 40, 0.89)",
+                "rgba(50, 172, 45, 0.97)"
+              ],
+              "column": "Time",
+              "dateFormat": "YYYY-MM-DD HH:mm:ss",
+              "decimals": 0,
+              "eventData": [
+                {
+                  "eventOn": -1,
+                  "hidden": false,
+                  "pattern": "45",
+                  "style": "height",
+                  "value": "-${_value}"
+                }
+              ],
+              "eventProp": "id",
+              "eventRegEx": false,
+              "gradient": false,
+              "hidden": false,
+              "invert": false,
+              "linkData": [],
+              "linkProp": "id",
+              "linkRegEx": true,
+              "mappingType": 1,
+              "metricType": "serie",
+              "order": 6,
+              "overlayIcon": false,
+              "pattern": "HEIGHT",
+              "rangeData": [],
+              "reduce": true,
+              "refId": "A",
+              "sanitize": false,
+              "shapeData": [
+                {
+                  "colorOn": "a",
+                  "hidden": false,
+                  "pattern": "45",
+                  "style": "fillColor"
+                }
+              ],
+              "shapeProp": "id",
+              "shapeRegEx": true,
+              "stringThresholds": [
+                "/.*/",
+                "/.*/"
+              ],
+              "textData": [
+                {
+                  "hidden": false,
+                  "pattern": "45",
+                  "textOn": "wmd",
+                  "textPattern": "/.*/",
+                  "textReplace": "content"
+                }
+              ],
+              "textProp": "id",
+              "textRegEx": true,
+              "thresholds": [
+                33,
+                66
+              ],
+              "tooltip": false,
+              "tooltipColors": false,
+              "tooltipLabel": "",
+              "tooltipOn": "a",
+              "tpDirection": "v",
+              "tpGraph": true,
+              "tpGraphHigh": null,
+              "tpGraphLow": null,
+              "tpGraphScale": "linear",
+              "tpGraphSize": "100%",
+              "tpGraphType": "line",
+              "type": "number",
+              "unit": "short",
+              "valueData": []
+            },
+            {
+              "aggregation": "current",
+              "alias": "FONTSIZE",
+              "colors": [
+                "rgba(245, 54, 54, 0.9)",
+                "rgba(237, 129, 40, 0.89)",
+                "rgba(50, 172, 45, 0.97)"
+              ],
+              "column": "Time",
+              "dateFormat": "YYYY-MM-DD HH:mm:ss",
+              "decimals": 0,
+              "eventData": [
+                {
+                  "eventOn": 1,
+                  "hidden": false,
+                  "pattern": "49",
+                  "style": "fontSize",
+                  "value": "25"
+                },
+                {
+                  "eventOn": 2,
+                  "hidden": false,
+                  "pattern": "49",
+                  "style": "fontSize",
+                  "value": "40"
+                }
+              ],
+              "eventProp": "id",
+              "eventRegEx": false,
+              "gradient": false,
+              "hidden": false,
+              "invert": false,
+              "linkData": [],
+              "linkProp": "id",
+              "linkRegEx": true,
+              "mappingType": 1,
+              "metricType": "serie",
+              "order": 7,
+              "overlayIcon": false,
+              "pattern": "FONTSIZE",
+              "rangeData": [],
+              "reduce": true,
+              "refId": "A",
+              "sanitize": false,
+              "shapeData": [
+                {
+                  "colorOn": "a",
+                  "hidden": false,
+                  "pattern": "49",
+                  "style": "fillColor"
+                }
+              ],
+              "shapeProp": "id",
+              "shapeRegEx": true,
+              "stringThresholds": [
+                "/.*/",
+                "/.*/"
+              ],
+              "textData": [
+                {
+                  "hidden": false,
+                  "pattern": "49",
+                  "textOn": "wmd",
+                  "textPattern": "/.*/",
+                  "textReplace": "content"
+                }
+              ],
+              "textProp": "id",
+              "textRegEx": true,
+              "thresholds": [
+                33,
+                66
+              ],
+              "tooltip": false,
+              "tooltipColors": false,
+              "tooltipLabel": "",
+              "tooltipOn": "a",
+              "tpDirection": "v",
+              "tpGraph": true,
+              "tpGraphHigh": null,
+              "tpGraphLow": null,
+              "tpGraphScale": "linear",
+              "tpGraphSize": "100%",
+              "tpGraphType": "line",
+              "type": "number",
+              "unit": "short",
+              "valueData": []
+            },
+            {
+              "aggregation": "current",
+              "alias": "OPACITY",
+              "colors": [
+                "rgba(245, 54, 54, 0.9)",
+                "rgba(237, 129, 40, 0.89)",
+                "rgba(50, 172, 45, 0.97)"
+              ],
+              "column": "Time",
+              "dateFormat": "YYYY-MM-DD HH:mm:ss",
+              "decimals": 0,
+              "eventData": [
+                {
+                  "eventOn": -1,
+                  "hidden": false,
+                  "pattern": "42",
+                  "style": "opacity",
+                  "value": "${_value}"
+                }
+              ],
+              "eventProp": "id",
+              "eventRegEx": false,
+              "gradient": false,
+              "hidden": false,
+              "invert": false,
+              "linkData": [],
+              "linkProp": "id",
+              "linkRegEx": true,
+              "mappingType": 1,
+              "metricType": "serie",
+              "order": 8,
+              "overlayIcon": false,
+              "pattern": "OPACITY",
+              "rangeData": [],
+              "reduce": true,
+              "refId": "A",
+              "sanitize": false,
+              "shapeData": [],
+              "shapeProp": "id",
+              "shapeRegEx": true,
+              "stringThresholds": [
+                "/.*/",
+                "/.*/"
+              ],
+              "textData": [
+                {
+                  "hidden": false,
+                  "pattern": "42",
+                  "textOn": "wmd",
+                  "textPattern": "/.*/",
+                  "textReplace": "content"
+                }
+              ],
+              "textProp": "id",
+              "textRegEx": true,
+              "thresholds": [
+                50,
+                80
+              ],
+              "tooltip": false,
+              "tooltipColors": false,
+              "tooltipLabel": "",
+              "tooltipOn": "a",
+              "tpDirection": "v",
+              "tpGraph": true,
+              "tpGraphHigh": null,
+              "tpGraphLow": null,
+              "tpGraphScale": "linear",
+              "tpGraphSize": "100%",
+              "tpGraphType": "line",
+              "type": "number",
+              "unit": "short",
+              "valueData": []
+            },
+            {
+              "aggregation": "current",
+              "alias": "EXPAND",
+              "colors": [
+                "rgba(245, 54, 54, 0.9)",
+                "rgba(237, 129, 40, 0.89)",
+                "rgba(50, 172, 45, 0.97)"
+              ],
+              "column": "Time",
+              "dateFormat": "YYYY-MM-DD HH:mm:ss",
+              "decimals": 0,
+              "eventData": [
+                {
+                  "eventOn": 0,
+                  "hidden": false,
+                  "pattern": "50",
+                  "style": "fold",
+                  "value": "0"
+                }
+              ],
+              "eventProp": "id",
+              "eventRegEx": false,
+              "gradient": false,
+              "hidden": false,
+              "invert": false,
+              "linkData": [],
+              "linkProp": "id",
+              "linkRegEx": true,
+              "mappingType": 1,
+              "metricType": "serie",
+              "order": 9,
+              "overlayIcon": false,
+              "pattern": "EXPAND",
+              "rangeData": [],
+              "reduce": true,
+              "refId": "A",
+              "sanitize": false,
+              "shapeData": [
+                {
+                  "colorOn": "a",
+                  "hidden": false,
+                  "pattern": "54",
+                  "style": "fillColor"
+                }
+              ],
+              "shapeProp": "id",
+              "shapeRegEx": true,
+              "stringThresholds": [
+                "/.*/",
+                "/.*/"
+              ],
+              "textData": [
+                {
+                  "hidden": false,
+                  "pattern": "50",
+                  "textOn": "wmd",
+                  "textPattern": "/.*/",
+                  "textReplace": "as"
+                }
+              ],
+              "textProp": "id",
+              "textRegEx": true,
+              "thresholds": [
+                33,
+                66
+              ],
+              "tooltip": false,
+              "tooltipColors": false,
+              "tooltipLabel": "",
+              "tooltipOn": "a",
+              "tpDirection": "v",
+              "tpGraph": true,
+              "tpGraphHigh": null,
+              "tpGraphLow": null,
+              "tpGraphScale": "linear",
+              "tpGraphSize": "100%",
+              "tpGraphType": "line",
+              "type": "number",
+              "unit": "short",
+              "valueData": []
+            }
+          ]
+        },
+        "targets": [
+          {
+            "alias": "FORM",
+            "refId": "A",
+            "scenarioId": "random_walk"
+          },
+          {
+            "alias": "BLINK",
+            "max": 360,
+            "min": 0,
+            "refId": "B",
+            "scenarioId": "random_walk",
+            "spread": 10,
+            "startValue": null
+          },
+          {
+            "alias": "ROTATION",
+            "max": 360,
+            "min": 0,
+            "refId": "C",
+            "scenarioId": "random_walk",
+            "spread": 10
+          },
+          {
+            "alias": "BAR",
+            "refId": "D",
+            "scenarioId": "random_walk"
+          },
+          {
+            "alias": "HEIGHT",
+            "refId": "E",
+            "scenarioId": "random_walk"
+          },
+          {
+            "alias": "WIDTH",
+            "refId": "F",
+            "scenarioId": "random_walk"
+          },
+          {
+            "alias": "FONTSIZE",
+            "refId": "G",
+            "scenarioId": "random_walk"
+          },
+          {
+            "alias": "OPACITY",
+            "max": 100,
+            "min": 0,
+            "refId": "H",
+            "scenarioId": "random_walk"
+          },
+          {
+            "alias": "EXPAND",
+            "max": 100,
+            "min": 0,
+            "refId": "I",
+            "scenarioId": "random_walk"
+          }
+        ],
+        "timeFrom": null,
+        "timeShift": null,
+        "title": "",
+        "transparent": true,
+        "type": "agenty-flowcharting-panel",
+        "valueName": "current",
+        "version": "0.8.0"
+      }
+    ],
+    "refresh": "",
+    "schemaVersion": 22,
+    "style": "dark",
+    "tags": [],
+    "templating": {
+      "list": []
+    },
+    "time": {
+      "from": "now-6h",
+      "to": "now"
+    },
+    "timepicker": {
+      "refresh_intervals": [
+        "5s",
+        "10s",
+        "30s",
+        "1m",
+        "5m",
+        "15m",
+        "30m",
+        "1h",
+        "2h",
+        "1d"
+      ]
+    },
+    "timezone": "",
+    "title": "Event - All animations",
+    "uid": "GsFg7rjZz",
+    "variables": {
+      "list": []
+    },
+    "version": 24
+  }

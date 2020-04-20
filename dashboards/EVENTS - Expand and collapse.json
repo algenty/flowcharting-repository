@@ -1,0 +1,206 @@
+{
+    "annotations": {
+      "list": [
+        {
+          "builtIn": 1,
+          "datasource": "-- Grafana --",
+          "enable": true,
+          "hide": true,
+          "iconColor": "rgba(0, 211, 255, 1)",
+          "name": "Annotations & Alerts",
+          "type": "dashboard"
+        }
+      ]
+    },
+    "editable": true,
+    "gnetId": null,
+    "graphTooltip": 0,
+    "id": 27,
+    "links": [],
+    "panels": [
+      {
+        "datasource": null,
+        "flowchartsData": {
+          "flowcharts": [
+            {
+              "allowDrawio": false,
+              "bgColor": null,
+              "center": true,
+              "csv": "",
+              "download": false,
+              "editorTheme": "kennedy",
+              "editorUrl": "https://www.draw.io",
+              "enableAnim": true,
+              "grid": false,
+              "lock": true,
+              "name": "Main",
+              "scale": true,
+              "tooltip": true,
+              "type": "xml",
+              "url": "http://<YourUrl>/<Your XML/drawio file/api>",
+              "xml": "<mxfile host=\"www.draw.io\" modified=\"2020-04-14T07:36:22.375Z\" agent=\"5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36\" version=\"12.9.11\" etag=\"XQ7Tg4gK4aUhLZ99vCYo\"><diagram id=\"i-SZc-Pk-Kp7MBwtRbJF\" name=\"Page-1\">7ZbBjtMwEIafJkdQE7dNe9ymhT0UWFEkuHrjaWLh2MF2SMvTM06cptlsoEh7QAJVSu3Pjsfzz28rAUmK01tNy/ydYiCCaMZOAdkGURSvInw6cG7BIl61INOctSjswYH/AA9nnlacgRlMtEoJy8shTJWUkNoBo1qrejjtqMQwakkzGIFDSsWYfubM5i1dRXHP74FneRc5XK7bkYJ2k30mJqdM1VeI7AKSaKVs2ypOCQinXadL+96bidHLxjRIe8sLxFfiOxWVT2735eHu/Xa39Ru05y5rU/NCUIm9zVFJmyihdDNCVrH7IfeLgbZwmtxReMkT/QGqAKvPOMW/sPDKeGusfbfudSZzz/IrjaMOUl/b7LJynz42vAITapCRGkG0FBhik+Oul5lr3QNlXGbdAK7Zj3Ww7MBeaShchNJU7p81oqGs3Lq94g6DKGmdatCpYCs3igFKbnjahJmB4H6WAdas4SCvTKFc10JRNmtymXLGWSXd0pV7CPqI8d1s28WGxoWZpC6M4N8q+voqk7JP5EnxsaCNDLZA8bYhNo3V6it0LpCqNQYX4gkyJW0SIdtF3/ukSgSv0J1kU+fcwgG5C1XjhYFMoYeOojkZOWcMJDKtKsnAlWo2tuB66X63WrC1/aQH48XAg/HYg+H6GQ+G0Ut4cD7yYPJhv797OLzwkUyVELQ0MH11/PqgzslvT2oYPndSybRIPthHPApUZgL+KNpt9wIVFrSkFjbOTmZUmkuit1Vr8f/G+DdujPnfcmNgt/8+aC3bf2SR3U8=</diagram></mxfile>",
+              "zoom": "100%"
+            }
+          ]
+        },
+        "format": "short",
+        "graphId": "flowchart_2",
+        "gridPos": {
+          "h": 17,
+          "w": 20,
+          "x": 0,
+          "y": 0
+        },
+        "id": 2,
+        "newFlag": false,
+        "rulesData": {
+          "rulesData": [
+            {
+              "aggregation": "current",
+              "alias": "myRule",
+              "colors": [
+                "rgba(245, 54, 54, 0.9)",
+                "rgba(237, 129, 40, 0.89)",
+                "rgba(50, 172, 45, 0.97)"
+              ],
+              "column": "Time",
+              "dateFormat": "YYYY-MM-DD HH:mm:ss",
+              "decimals": 0,
+              "eventData": [
+                {
+                  "eventOn": 1,
+                  "hidden": false,
+                  "pattern": "32",
+                  "style": "fold",
+                  "value": "0"
+                },
+                {
+                  "eventOn": 2,
+                  "hidden": false,
+                  "pattern": "34",
+                  "style": "fold",
+                  "value": "1"
+                }
+              ],
+              "eventProp": "id",
+              "eventRegEx": false,
+              "gradient": false,
+              "hidden": false,
+              "invert": false,
+              "linkData": [],
+              "linkProp": "id",
+              "linkRegEx": true,
+              "mappingType": 1,
+              "metricType": "serie",
+              "order": 1,
+              "overlayIcon": false,
+              "pattern": "A-series",
+              "rangeData": [],
+              "reduce": true,
+              "refId": "A",
+              "sanitize": false,
+              "shapeData": [
+                {
+                  "colorOn": "a",
+                  "hidden": false,
+                  "pattern": "32",
+                  "style": "fillColor"
+                },
+                {
+                  "colorOn": "a",
+                  "hidden": false,
+                  "pattern": "34",
+                  "style": "fillColor"
+                }
+              ],
+              "shapeProp": "id",
+              "shapeRegEx": true,
+              "stringThresholds": [
+                "/.*/",
+                "/.*/"
+              ],
+              "textData": [
+                {
+                  "hidden": false,
+                  "pattern": "32",
+                  "textOn": "wmd",
+                  "textPattern": "/.*/",
+                  "textReplace": "as"
+                },
+                {
+                  "hidden": false,
+                  "pattern": "34",
+                  "textOn": "wmd",
+                  "textPattern": "/.*/",
+                  "textReplace": "as"
+                }
+              ],
+              "textProp": "id",
+              "textRegEx": true,
+              "thresholds": [
+                50,
+                80
+              ],
+              "tooltip": false,
+              "tooltipColors": false,
+              "tooltipLabel": "",
+              "tooltipOn": "a",
+              "tpDirection": "v",
+              "tpGraph": true,
+              "tpGraphHigh": null,
+              "tpGraphLow": null,
+              "tpGraphScale": "linear",
+              "tpGraphSize": "100%",
+              "tpGraphType": "line",
+              "type": "number",
+              "unit": "short",
+              "valueData": []
+            }
+          ]
+        },
+        "targets": [
+          {
+            "refId": "A",
+            "scenarioId": "random_walk"
+          }
+        ],
+        "timeFrom": null,
+        "timeShift": null,
+        "title": "Panel Title",
+        "type": "agenty-flowcharting-panel",
+        "valueName": "current",
+        "version": "0.8.0"
+      }
+    ],
+    "schemaVersion": 22,
+    "style": "dark",
+    "tags": [],
+    "templating": {
+      "list": []
+    },
+    "time": {
+      "from": "now-6h",
+      "to": "now"
+    },
+    "timepicker": {
+      "refresh_intervals": [
+        "5s",
+        "10s",
+        "30s",
+        "1m",
+        "5m",
+        "15m",
+        "30m",
+        "1h",
+        "2h",
+        "1d"
+      ]
+    },
+    "timezone": "",
+    "title": "EVENT - Expand / Collapse",
+    "uid": "U03MxqjZz",
+    "variables": {
+      "list": []
+    },
+    "version": 6
+  }
