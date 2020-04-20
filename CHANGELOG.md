@@ -1,6 +1,6 @@
 # Changelog
 
-## [[0.8.0 SNAPSHOT]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-0.8.0-snapshot.zip) - 2020-04-17    
+## [[0.8.0 SNAPSHOT]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-0.8.0-snapshot.zip) - 2020-04-21    
 ### Add
   - Add Identify by Value in field 'what' in rules  
   - Add option to disable regex for best perf  
