@@ -32,9 +32,12 @@ Define condition when text/values is displayed.
 ## How
 Define which part of text is replaced vy values.
   - All content : Replace all text by the formatted value.
-  - Substring : only a part of string (regex)  
+  - Substring : only a part of string with a regular expression in field "with"  
   - Append (new line) : Append formated value with a carriage return.
   - Append (new line) : Append formated value with a space at right.
+
+## With
+Enter a regular expression when substring is selected.  
 
 ### Example :  
 Original text = "Number of sessions : VALUE".  
