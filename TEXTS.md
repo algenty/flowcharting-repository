@@ -1,5 +1,5 @@
-# Color/Tooltip Mappings
-In this section, choose the shapes and conditions of use.
+# Label/Text Mapping
+In this section, you can change the text with the value of metric. 
 
 ## Identify by
 You can select the method of selection for the field "What" :    
@@ -23,22 +23,24 @@ You can target/select the shape by clicking on link button.
 ![images/fc_subway_example.png](images/fc_subway_example.png)
 
 ## When
-Select when color is applied :
-  - never : No color applied, only tooltip applied
-  - Warning/Critical : If state is OK, Shapes, arrows or text are not colored, keep orginal color.
-  - Always : Objects defined in "Shape Mapping" are colored for each state.
+Define condition when text/values is displayed.
+  - Never : Hide text
+  - When metric displayed : Show data if serie not empty.
+  - Warning/Critical : Display value instead original selected text if non OK.
+  - Critical only : Same, but only if state is critical.
 
 ## How
-Define the method to color :  
-  - Shape Fill : Fill the object with the defined color and state.
-  - Shape Stoke/Border : Color the object's perimeter with the defined color and state (Use it for the arrows).
-  - Label font color : Color the object's label with the defined color and state.
-  - Label border color : Color the border of text in shape.   
-  - Label backgroud color : Color the background of text in shape .
-  - Backgroud : only for the image like clipart, Color the image's backgroud.
-  - Border : only for the image like clipart, Color the image's perimeter. 
+Define which part of text is replaced vy values.
+  - All content : Replace all text by the formatted value.
+  - Substring : only a part of string (regex)  
+  - Append (new line) : Append formated value with a carriage return.
+  - Append (new line) : Append formated value with a space at right.
 
-![Metrics name example](images/colormode_ani.png)
+### Example :  
+Original text = "Number of sessions : VALUE".  
+Change "VALUE" with this pattern "/VALUE/" and keep string before.  
 
-## Example/Demo
+![See full example animation](images/example_text_pattern.png)
+
+### demo
 [https://play.grafana.org/d/VbE3_jqZz/flowcharting-options-demo?orgId=1](https://play.grafana.org/d/VbE3_jqZz/flowcharting-options-demo?orgId=1)

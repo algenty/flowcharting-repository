@@ -29,17 +29,8 @@ The rules are defined in 2 zones :
 
 ### Thresholds
   Change the shape and value colors dynamically within the panel.  
-  [more detail](THRESHOLDS)
+  [more detail...](THRESHOLDS)
 
-### Color mode
-  Use it to define what and how to color the object :
-  - Fill : Fill the object with the defined color and state.
-  - Stoke : Color the object's perimeter with the defined color and state (Use it for the arrows).
-  - Text : Color the object's label with the defined color and state.
-  - Backgroud : only for the image like clipart, Color the image's backgroud.
-  - Border : only for the image like clipart, Color the image's perimeter.  
-
-![Metrics name example](images/colormode_ani.png)
 
 #### Icon state
 When rule's state is not ok, Floawcharting add warning icon under shapes
@@ -91,26 +82,10 @@ When rule's state is not ok, Floawcharting add warning icon under shapes
 
 ![See full example animation](images/tooltip2_ani.gif)
 
-# Link
-
-## Object as link
-  - Add a http link or overwrite on existing for object/shape (defined in link mapping)
-
-## Overwrite link on (version 0.6.0) | "How" field  in Link mapping (version > 0.7.0)
-Define condition to overwrite or add link
-
-## Url
-Enter a valid url to redirect user when he click on shapes.
-
-## Add params to link
-Append params of current dashboard to link
-
 # Color Mappings
-In this section, you can add object/shapes from panel to colorize it with the conditions of current rule.
+In this section, you can add object/shapes from panel to colorize it with the conditions of current rule.  
 
-  - ![remove](images/fa-remove.png) : Remove line/shapes from current rule
-  - ![hide](images/fa-hide.png) : Hide/ignore line from current rule
-  - ![link](images/fa-link.png) : Click on it to select shapes/object in panel and auto fill input with id object.
+[more detail...](SHAPES)
 
 
 # Text Mappings
