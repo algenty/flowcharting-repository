@@ -28,7 +28,8 @@ flowCharting is able to calculate the intermediate color when the value is betwe
 If there is no associated value, flowCharting takes the raw color of the corresponding level.
 
 ### Example
-![Threshold1](images/thresholds_image1.png)
+![Threshold1](images/thresholds_image1.png)  
+
 In this example, 3 colors are declared (red, yellow and green ) but only 2 values are associated.
   * If the value is under 40, the applied color is alway RED without gradient because Flowcharting is unable to know the radio between red and yellow ( ? < value > 40)  
   * If the value is between 40 and 80, Flowcharting calculates the ratio with this formule :  
@@ -47,8 +48,8 @@ To solve the problem, you need to define a value for red color like this :
 ![Threshold2](images/thresholds_image2.png)
 
 ### Demo
-You can found a big example with floorplan dashboard here :
-https://play.grafana.org/d/Unu5JcjWk/flowcharting-index?orgId=1
+You can found a big example with floorplan dashboard here :  
+[https://play.grafana.org/d/Unu5JcjWk/flowcharting-index?orgId=1](https://play.grafana.org/d/Unu5JcjWk/flowcharting-index?orgId=1)
 
-Or a little example
-https://play.grafana.org/d/cX3XoCCWz/flowcharting-gradient-color-mode?orgId=1
+Or a little example :    
+[https://play.grafana.org/d/cX3XoCCWz/flowcharting-gradient-color-mode?orgId=1](https://play.grafana.org/d/cX3XoCCWz/flowcharting-gradient-color-mode?orgId=1)
