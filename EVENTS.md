@@ -1,4 +1,4 @@
-# Label/Text Mapping
+# Events Mapping
 In this section, you can add animation or event according to the level
 
 ## Identify by
@@ -62,7 +62,7 @@ Negative value right-left
 
 * Shape : Opacity (0-100)  
 
-* Shape : Collapse/Expande (0|1)  
+* Shape : Collapse/Expande (0 or 1)  
 
 * Shape : Change position in Bar (0-100)  
 
