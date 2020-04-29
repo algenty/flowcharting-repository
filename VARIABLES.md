@@ -22,13 +22,12 @@ List of custom variables :
  - ${_color} : Current color  
  - ${_rule} : Name of rule  
  - ${_value} : Raw value according to the aggregation  
- - ${_formated} : Formated value according to the type and unit  
+ - ${_formated} : Formated value according to the type and unit (string)
 
  Javascript code supports like it :
  ```
  // Percent for 10 levels
  ${_level} * 100
-
  ```  
 
  ```

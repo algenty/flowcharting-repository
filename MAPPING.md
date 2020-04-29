@@ -64,18 +64,15 @@ In this section, you can add object/shapes from panel to colorize it with the co
 # Text Mappings
 In this section, you can change the text with the value of metric.
 
-  - ![remove](images/fa-remove.png) : Remove line/texts from current rule
-  - ![hide](images/fa-hide.png) : Hide/ignore line from current rule
-  - ![link](images/fa-link.png) : Click on it to select shapes/text in panel and auto fill input with id object.
+[more detail...](TEXTS)
 
 
 # Link Mappings
 In this section, you can add object/shapes from panel to link to an other dashboard/site with the conditions of current rule.
 
-  - ![remove](images/fa-remove.png) : Remove line/shapes from current rule
-  - ![hide](images/fa-hide.png) : Hide/ignore line from current rule
-  - ![link](images/fa-link.png) : Click on it to select shapes/object in panel and auto fill input with id object.
+[more detail...](LINKS)
 
 # Event Mapping
 In this section, you can customize custom animation or event like blink, opacity and more.
 
+[more detail...](EVENTS)
