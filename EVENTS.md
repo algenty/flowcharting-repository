@@ -3,8 +3,8 @@ In this section, you can add animation or event according to the level
 
 ## Identify by
 You can select the method of selection for the field "What" :    
-    - by the uniq ID of shapes.
-    - by the value of the text (experimental).
+ - by the uniq ID of shapes.
+ - by the value of the text (experimental).
 
 ## Regular exression
 If checked, the field "What" accepts a regular expression (less efficient) like this :
@@ -33,30 +33,54 @@ Value field can contain Grafana variables or local variables
 [more detail ...](VARIABLES)  
 
 # Available animations
-* Shape : Change form (text)
-Enter the name of shape in draw.io.
-To find the name of shape, go to draw.io, select the shape and click on button 'edit style' on the left.
+* Shape : Change form (text)  
+Enter the name of shape in draw.io.  
+To find the name of shape, go to draw.io, select the shape and click on button 'edit style' on the left.  
 ``` 
 shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1; 
 ```
-Here, the name is cylinder
+Here, the name is cylinder  
 
-* Shape : Rotate Shape (0-360)
-Enter a number between 0 and 360 (degres)
+* Shape : Rotate Shape (0-360)  
+Enter a number between 0 and 360 (degres)  
     
-* Shape : Blink (frequence ms)
-Enter a number (in ms)
+* Shape : Blink (frequence ms)  
+Enter a number (in ms)  
 
-* *Shape : Hide/Show (0|1)'
+* Shape : Hide/Show (0|1)  
  - 0 to hide
  - 1 to show
 
-    - Shape : Change height (number)
-    - Shape : Change width (number)', value: 'width', type: 'number', placeholder: 'Number of px' },
-    - Shape : Opacity (0-100)', value: 'opacity', type: 'number', placeholder: '0-100', default: 100 },
-    - Shape : Collapse/Expande (0|1)', value: 'fold', type: 'number', placeholder: '0 or 1', typeahead: '0|1', default: '1' },
-    - Shape : Change position in Bar (0-100)', value: 'barPos', type: 'number', placeholder: '0-100' },
-    - Label : Replace text (text)', value: 'text', type: 'text', placeholder: 'Text' },
-    - Label : Font Size (numeric)', value: 'fontSize', type: 'number', placeholder: 'Number' },
-    - Label : Opacity (numeric)', value: 'textOpacity', type: 'number', placeholder: '0-100', default: 100 },
-     - Image : Change URL (text)', value: 'image', type: 'text', placeholder: 'Url' },
+* Shape : Change height (number)  
+Positive value top-down
+Negative value down-top
+
+* Shape : Change width (number)
+Positive value left-right
+Negative value right-left
+
+
+* Shape : Opacity (0-100)  
+
+* Shape : Collapse/Expande (0|1)  
+
+* Shape : Change position in Bar (0-100)  
+
+* Label : Replace text (text)  
+
+* Label : Font Size (numeric)  
+
+* Label : Opacity (numeric)  
+Enter a number between 0 and 100  
+* Image : Change URL (text)  
+Url of the new image
+
+## Somes examples
+* All events available in 0.8.0
+![All events](all_events_ani.png)
+
+* Width and height events  
+![Progress bar](images/events_pgexample_ani.png)  
+
+* Expand and collapse events
+![images/expand_event_ani.png](images/expand_event_ani.png)
