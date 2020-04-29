@@ -33,10 +33,10 @@ Value field can contain Grafana variables or local variables
 [more detail ...](VARIABLES)  
 
 # Available animations
-    - Shape : Change form (text)
-    Enter the name of shape in draw.io
+* Shape : Change form (text)
+Enter the name of shape in draw.io
 
-    - Shape : Rotate Shape (0-360)
+* Shape : Rotate Shape (0-360)
     Enter a number between 0 and 360 (degres)
     
     - Shape : Blink (frequence ms)
