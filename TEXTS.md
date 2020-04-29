@@ -45,5 +45,5 @@ Change "VALUE" with this pattern "/VALUE/" and keep string before.
 
 ![See full example animation](images/example_text_pattern.png)
 
-### demo
+### Demo
 [https://play.grafana.org/d/VbE3_jqZz/flowcharting-options-demo?orgId=1](https://play.grafana.org/d/VbE3_jqZz/flowcharting-options-demo?orgId=1)

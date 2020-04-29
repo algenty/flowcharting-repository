@@ -6,15 +6,14 @@ The rules are defined in 2 zones :
 
 ![Metrics name example](images/rules_conditions.png)
 
-## Options
-### Rule name  
+## Rule name  
   Enter rule name, for infomation. It display on the header of rule.
 
-### Apply to metrics 
+## Apply to metrics 
   Enter alias of metric or regular pattern of metric for this rule, metric are aggregated and values are used to evaluate state.  
   ![Metrics name example](images/mp_metrics_name.png)
 
-### Aggregation
+## Aggregation
   Select aggregation value of series for apply current rule.
 
   - **min** : The smallest value in the series
@@ -27,15 +26,6 @@ The rules are defined in 2 zones :
   - **diff** : The difference between ‘current’ (last value) and ‘first’.
   - **range** : The difference between ‘min’ and ‘max’. Useful the show the range of change for a gauge.
 
-### Thresholds
-  Change the shape and value colors dynamically within the panel.  
-  [more detail...](THRESHOLDS)
-
-
-#### Icon state
-When rule's state is not ok, Floawcharting add warning icon under shapes
-
-![warning icon](images/mapping_iconstate_ani.png)
 
 ## Type
 ### Number
@@ -51,27 +41,11 @@ When rule's state is not ok, Floawcharting add warning icon under shapes
 ### Decimals
   Number of decimal to display, only for number type
 
-## Color On (version < 0.6.0)| "How" field  in color mapping (version > 0.7.0)
-  Select when color is applied :
-  - Warning/Critical : If state is OK, Shapes, arrows or text are not colored, keep orginal color.
-  - Always : Objects defined in "Shape Mapping" are colored for each state.
 
-## Value On (version < 0.6.0)| "How" field  in text/label mapping (version > 0.7.0)
-  Define condition when text/values is displayed.
-  - Never : Hide text
-  - When metric displayed : Show data if serie not empty.
-  - Warning/Critical : Display value instead original selected text if non OK.
-  - Critical only : Same, but only if state is critical.
+### Thresholds
+  Change the shape and value colors dynamically within the panel.  
+  [more detail...](THRESHOLDS)
 
-## Update text value
-  Define which part of text is replaced vy values.
-  - All content : All the text
-  - Substring : only a part on string (regex)  
-      Example :  
-        Original text = "Number of sessions : VALUE".  
-        Change "VALUE" with this pattern "/VALUE/" and keep string before.  
-
-![See full example animation](images/example_text_pattern.png)
 
 
 ## Tooltips
@@ -86,7 +60,6 @@ When rule's state is not ok, Floawcharting add warning icon under shapes
 In this section, you can add object/shapes from panel to colorize it with the conditions of current rule.  
 
 [more detail...](SHAPES)
-
 
 # Text Mappings
 In this section, you can change the text with the value of metric.

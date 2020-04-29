@@ -27,6 +27,11 @@ You can invert the order of the levels and colors by clicking on invert button
 flowCharting is able to calculate the intermediate color when the value is between 2 levels with one value.
 If there is no associated value, flowCharting takes the raw color of the corresponding level.
 
+## Icon state
+When rule's state is not ok, Floawcharting add warning icon under shapes
+
+![warning icon](images/mapping_iconstate_ani.png)
+
 ### Example
 ![Threshold1](images/thresholds_image1.png)  
 
