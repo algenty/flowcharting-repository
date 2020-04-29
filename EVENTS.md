@@ -34,17 +34,22 @@ Value field can contain Grafana variables or local variables
 
 # Available animations
 * Shape : Change form (text)
-Enter the name of shape in draw.io
+Enter the name of shape in draw.io.
+To find the name of shape, go to draw.io, select the shape and click on button 'edit style' on the left.
+``` 
+shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1; 
+```
+Here, the name is cylinder
 
 * Shape : Rotate Shape (0-360)
-    Enter a number between 0 and 360 (degres)
+Enter a number between 0 and 360 (degres)
     
-    - Shape : Blink (frequence ms)
-    Enter a number (in ms)
+* Shape : Blink (frequence ms)
+Enter a number (in ms)
 
-    - Shape : Hide/Show (0|1)'
-        - 0 to hide
-        - 1 to show
+* *Shape : Hide/Show (0|1)'
+ - 0 to hide
+ - 1 to show
 
     - Shape : Change height (number)
     - Shape : Change width (number)', value: 'width', type: 'number', placeholder: 'Number of px' },
