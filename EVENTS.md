@@ -77,7 +77,7 @@ Url of the new image
 
 ## Somes examples
 * All events available in 0.8.0
-![All events](all_events_ani.png)
+![All events](images/all_events_ani.png)
 
 * Width and height events  
 ![Progress bar](images/events_pgexample_ani.png)  
