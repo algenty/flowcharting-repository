@@ -49,18 +49,18 @@ Enter a number between 0 and 360 (degres)
 Enter a number (in ms)  
 
 * Shape : Hide/Show (0|1)  
- - 0 to hide
- - 1 to show
+    - 0 to hide
+    - 1 to show
 
 * Shape : Change height (number)  
 The number must be a number of pixels
-Positive value top-down  
-Negative value down-top  
+    - Positive value top-down  
+    - Negative value down-top  
 
 * Shape : Change width (number)  
-The number must be a number of pixels  
-Positive value left-right  
-Negative value right-left  
+The number must be a number of pixels :  
+    - Positive value left-right  
+    - Negative value right-left  
 
 
 * Shape : Opacity (0-100)  
@@ -68,8 +68,8 @@ Enter a number between 0 and 100
 The number is a percent (don't add a %)
 
 * Shape : Collapse/Expande (0 or 1)  
-0 for Collapse a container
-1 for expand a container
+  - 0 for Collapse a container
+  - 1 for expand a container
 
 * Shape : Change position in Bar (0-100)  
 Only for GMLD/Slider shapes in draw.io  
