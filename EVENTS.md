@@ -30,7 +30,7 @@ Select the animation
 
 ## Value
 Select a value for this animation.  
-Value field can contain Grafana variables or local variables
+Value field can contain Grafana variables or local variables  
 [more detail ...](VARIABLES)  
 
 # Available animations
@@ -38,7 +38,7 @@ Value field can contain Grafana variables or local variables
 Enter the name of shape in draw.io.  
 To find the name of shape, go to draw.io, select the shape and click on button 'edit style' on the left.  
 ``` 
-shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1; 
+shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;  
 ```
 Here, the name is cylinder  
 
