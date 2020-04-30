@@ -46,9 +46,10 @@ Here, the name is cylinder
 Enter a number between 0 and 360 (degres)  
     
 * Shape : Blink (frequence ms)  
-Enter a number (in ms)  
+Enter a number (in ms witout 'ms' string)
+    - 1000 for 1 second  
 
-* Shape : Hide/Show (0|1)  
+* Shape : Hide/Show (0 or 1)  
     - 0 to hide
     - 1 to show
 
@@ -62,14 +63,13 @@ The number must be a number of pixels :
     - Positive value left-right  
     - Negative value right-left  
 
-
 * Shape : Opacity (0-100)  
 Enter a number between 0 and 100  
 The number is a percent (don't add a %)
 
 * Shape : Collapse/Expande (0 or 1)  
-  - 0 for Collapse a container
-  - 1 for expand a container
+    - 0 for Collapse a container
+    - 1 for expand a container
 
 * Shape : Change position in Bar (0-100)  
 Only for GMLD/Slider shapes in draw.io  
@@ -82,11 +82,11 @@ Replace the current text of shape
 
 * Label : Opacity (numeric)  
 Enter a number between 0 and 100  
-The number is a percent (don't add a %)  
+The number is a percent (don't add a '%')  
 
 
 * Image : Change URL (text)  
-Url of the new image (obsolute or relative)
+Url of the new image (absolute or relative)
 
 ## Somes examples
 * All events available in 0.8.0
