@@ -1,4 +1,5 @@
 # Events Mapping
+Events Mapping is a new feature since version 0.8.0 of Flowcharting
 In this section, you can add animation or event according to the level
 
 ## Identify by
@@ -52,28 +53,40 @@ Enter a number (in ms)
  - 1 to show
 
 * Shape : Change height (number)  
-Positive value top-down
-Negative value down-top
+The number must be a number of pixels
+Positive value top-down  
+Negative value down-top  
 
-* Shape : Change width (number)
-Positive value left-right
-Negative value right-left
+* Shape : Change width (number)  
+The number must be a number of pixels  
+Positive value left-right  
+Negative value right-left  
 
 
 * Shape : Opacity (0-100)  
+Enter a number between 0 and 100  
+The number is a percent (don't add a %)
 
 * Shape : Collapse/Expande (0 or 1)  
+0 for Collapse a container
+1 for expand a container
 
 * Shape : Change position in Bar (0-100)  
+Only for GMLD/Slider shapes in draw.io  
 
 * Label : Replace text (text)  
+Replace the current text of shape  
 
 * Label : Font Size (numeric)  
 
+
 * Label : Opacity (numeric)  
 Enter a number between 0 and 100  
+The number is a percent (don't add a %)  
+
+
 * Image : Change URL (text)  
-Url of the new image
+Url of the new image (obsolute or relative)
 
 ## Somes examples
 * All events available in 0.8.0
