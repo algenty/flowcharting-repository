@@ -1,5 +1,9 @@
 # Changelog
 
+## [[0.8.1]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-0.8.1.zip) - 2020-05-06
+### Fix
+  - Fixed : Dashboard variables
+
 ## [[0.8.0]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-0.8.0.zip) - 2020-05-02  
 ### Add
   - Add Identification by Value/lable in field 'what' in rules (experimental)  
