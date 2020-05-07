@@ -18,3 +18,6 @@ If you display more than one piece of information in a tooltip, you have the pos
 
 ## Color
 The value of the metrics is displayed according to the color defined in thresholds section.
+
+## Graph
+Display preview graph in tooltip
