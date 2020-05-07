@@ -42,37 +42,33 @@ The rules are defined in 2 zones :
   Number of decimal to display, only for number type
 
 
-### Thresholds
+## Thresholds
   Change the shape and value colors dynamically within the panel.  
   [more detail...](THRESHOLDS)
 
 
 
 ## Tooltips
-  Enable popup when curos is on shape with values and tooltips
-  - Label : Display this label before values
-  - Tooltip when state is : Select conditions to show popup
-  - Color with state : Color value with state defined in Thresholds  
+Enable popup when curos is on shape with values and tooltips
+[more detail...](TOOLTIPS)
 
-![See full example animation](images/tooltip2_ani.gif)
-
-# Color Mappings
+## Color Mappings
 In this section, you can add object/shapes from panel to colorize it with the conditions of current rule.  
 
 [more detail...](SHAPES)
 
-# Text Mappings
+## Text Mappings
 In this section, you can change the text with the value of metric.
 
 [more detail...](TEXTS)
 
 
-# Link Mappings
+## Link Mappings
 In this section, you can add object/shapes from panel to link to an other dashboard/site with the conditions of current rule.
 
 [more detail...](LINKS)
 
-# Event Mapping
+## Event Mapping
 In this section, you can customize custom animation or event like blink, opacity and more.
 
 [more detail...](EVENTS)
