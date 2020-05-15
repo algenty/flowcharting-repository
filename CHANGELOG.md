@@ -1,5 +1,14 @@
 # Changelog
 
+## [[0.9.0 SNAPSHOT]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-0.9.0-SNAPSHOT.zip) - 2020-05-16 
+### Added
+  - CSV Format (https://drawio-app.com/import-from-csv-to-drawio/)
+  - Aggregation : Time of last point  
+  - Gradient fill Color ([See example](https://github.com/algenty/grafana-flowcharting/blob/master/src/img/gradients_color_ani2.gif?raw=true))  
+  
+### Fixed
+  - Fixed : Flowchart grid display  
+
 ## [[0.8.1]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-0.8.1.zip) - 2020-05-11  
 ### Added
   - New plugin logo for Grafana V7 ([See example](https://github.com/algenty/grafana-flowcharting/blob/master/src/img/agenty-flowcharting.png?raw=true))  
