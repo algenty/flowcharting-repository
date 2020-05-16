@@ -2,10 +2,14 @@
 
 ## [[0.9.0 SNAPSHOT]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-0.9.0-SNAPSHOT.zip) - 2020-05-16 
 ### Added
-  - CSV Format (https://drawio-app.com/import-from-csv-to-drawio/)
+  - CSV Format support for flowchart source (https://drawio-app.com/import-from-csv-to-drawio/)
   - Aggregation : Time of last point  
   - New fill Method : Gradient ([See example](https://github.com/algenty/grafana-flowcharting/blob/master/src/img/gradients_color_ani2.gif?raw=true))  
   - Best render animated color with chroma-js.
+  - New Events/Animations Mapping :
+    * Change Gradient direction  
+    * Change Arrow start and end connectors  
+  - New homepage schema
   
 ### Fixed
   - Fixed : Flowchart grid display  
