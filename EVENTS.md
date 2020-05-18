@@ -50,8 +50,11 @@ Enter a number (in ms witout 'ms' string)
     - 1000 for 1 second  
 
 * Shape : Hide/Show (0 or 1)  
-    - 0 to hide
-    - 1 to show
+    - 0 to hide  
+    - 1 to show  
+
+* Shape : Gradient direction (south|east|north|west)
+![Gradient direction](images/gradients_color_ani2.gif)
 
 * Shape : Change height (number)  
 The number must be a number of pixels
@@ -62,32 +65,45 @@ The number must be a number of pixels
 The number must be a number of pixels :  
     - Positive value left-right  
     - Negative value right-left  
-
+  
+* Shape : Resize (percent)  
+Enter a percent without '%' :  
+    - If number is lowest than 100, Flowcharting reduce the size of shape  
+    - If number is greater than 100, Flowchartingincrease the size of shape  
+![Resize](images/resize_ani.gif)
+  
 * Shape : Opacity (0-100)  
 Enter a number between 0 and 100  
 The number is a percent (don't add a %)
-
+  
 * Shape : Collapse/Expande (0 or 1)  
     - 0 for Collapse a container
     - 1 for expand a container
 
 * Shape : Change position in Bar (0-100)  
-Only for GMLD/Slider shapes in draw.io  
+Only supported for GMLD/Slider shapes in draw.io  
 
+* Arrow : change start or end marker (text)
+Change the form of arrow's connectors, available values : 
+   - none | classic | classicThin | block | blockThin | open | openThin | oval | diamond | diamondThin | openAsync | async | box | halfCircle | dash | cross | circlePlus | circle | ERone | ERmandOne | ERoneToMany | ERzeroToOne  
+To find the name of shape, go to draw.io, select the shape and click on button 'edit style' on the left.  
+  
+* Shape : Flip horizontally or vertically (0|1) 
+invert the shape form    
+  
 * Label : Replace text (text)  
 Replace the current text of shape  
-
+  
 * Label : Font Size (numeric)  
-
+Change the size of text  (integer)
 
 * Label : Opacity (numeric)  
 Enter a number between 0 and 100  
 The number is a percent (don't add a '%')  
-
-
+  
 * Image : Change URL (text)  
 Url of the new image (absolute or relative)
-
+  
 ## Somes examples
 * All events available in 0.8.0
 ![All events](images/all_events_ani.png)
