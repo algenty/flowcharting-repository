@@ -1,21 +1,25 @@
 # Changelog
 
-## [[0.9.0 SNAPSHOT]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-0.9.0-SNAPSHOT.zip) - 2020-05-18  
+## [[0.9.0 SNAPSHOT]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-0.9.0-SNAPSHOT.zip) - 2020-05-24  
 ### Added
   - CSV Format support for flowchart source (https://drawio-app.com/import-from-csv-to-drawio/)
-  - Aggregation : Time of last point  
+  - New aggregation : Time of last point  
   - New fill Method : Gradient ([See example](https://github.com/algenty/grafana-flowcharting/blob/master/src/img/gradients_color_ani2.gif?raw=true))  
-  - Best render animated color with chroma-js.
+  - Graph hover support ([See example](https://github.com/algenty/grafana-flowcharting/blob/master/src/img/floorplan_graphhover.gif?raw=true))  
+  - Better rendering of color animation with chroma-js
   - New Events/Animations Mapping :
-    * Change Gradient direction  
-    * Change Arrow start and end connectors  
+    * Modify Gradient direction  
+    * Modify Arrow start and end connectors ([See example](https://github.com/algenty/grafana-flowcharting/blob/master/src/img/connectors_color_ani2.gif?raw=true))  
     * Flip shape horizontally or vertically  
     * Resize shape in percent ([See example](https://github.com/algenty/grafana-flowcharting/blob/master/src/img/resize_ani.gif?raw=true))  
   - New homepage schema
+  - Support external fonts like google fonts ([See example](https://github.com/algenty/grafana-flowcharting/blob/master/src/img/google_fonts.png?raw=true))
   
 ### Fixed
   - Fixed : Flowchart grid display  
-
+  - Fixed : background color field  
+  - Fixed : Blink event  
+  
 ## [[0.8.1]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-0.8.1.zip) - 2020-05-11  
 ### Added
   - New plugin logo for Grafana V7 ([See example](https://github.com/algenty/grafana-flowcharting/blob/master/src/img/agenty-flowcharting.png?raw=true))  
