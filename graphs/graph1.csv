@@ -1,20 +1,62 @@
-## Hello World
-# label: %step%
-# style: shape=%shape%;fillColor=%fill%;strokeColor=%stroke%;
+## Supply chain tracking example
+## label: %mname%
+# label: 
+#stylename: shapeType
+# styles: {"elb": "outlineConnect=0;fontColor=#232F3E;gradientColor=#945DF2;gradientDirection=north;fillColor=#5A30B5;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.elastic_load_balancing;", "ec2": "outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;", "redis": "aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;", "rds": "outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.rds;fillColor=#2E73B8;gradientColor=none;", "user": "outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.user;fillColor=#D2D3D3;gradientColor=none;"}
 # namespace: csvimport-
-# connect: {"from":"refs", "to":"id", "invert":true, "style":"curved=0;endArrow=blockThin;endFill=1;"}
+# connect: {"from":"deps", "to": "mname", "style":"curved=1;endArrow=blockThin;startArrow=none;strokeColor=#999999;endFill=1;"}
 # width: auto
 # height: auto
-# padding: 15
-# ignore: id,shape,fill,stroke,refs
+# padding: 40
+# ignore: id,shapeType,deps
 # nodespacing: 40
-# levelspacing: 100
+# levelspacing: 40
 # edgespacing: 40
-# layout: auto
-## CSV starts under this line
-id,step,fill,stroke,shape,refs
-1,Hello World,#dae8fc,#6c8ebf,rectangle,
-2,Am I alive?,#fff2cc,#d6b656,rhombus,1
-3,Yes,#d5e8d4,#82b366,ellipse,2
-4,No,#f8cecc,#b85450,ellipse,2
-5,,#fff2cc,#d6b656,mxgraph.basic.smiley,3
+# layout: horizontalflow
+## layout: auto
+## layout: horizontalflow, verticalflow, auto
+## CSV data starts below this line
+id,mname,deps,shapeType
+
+1,44943,"62494,88338,54829,23875",elb
+2,20972,"27357,13030,62494,52067,99194,23875",elb
+3,82521,"82265,21252,88338,6442,69162,50906",elb
+4,13603,"44943",user
+5,74928,"44943",user
+6,65262,"44943",user
+7,58682,"44943",user
+8,26777,"44943",user
+9,23875,"28704,93746,86219",ec2
+10,54829,"28704,93746,86219",ec2
+11,62494,"28704,93746,86219",ec2
+12,88338,"28704,93746,86219",ec2
+13,28704,,redis
+14,93746,,rds
+15,86219,,rds
+16,76362,"20972",user
+17,62517,"20972",user
+18,4606,"20972",user
+19,57020,"20972",user
+20,28778,"20972",user
+21,13030,"11175,17662,20776,21102,4532",ec2
+22,52067,"11175,17662,20776,21102,4532",ec2
+23,99194,"11175,17662,20776,21102,4532",ec2
+24,27357,"11175,17662,20776,21102,4532",ec2
+25,20776,,redis
+26,17662,,redis
+27,11175,,redis
+28,21102,,rds
+29,4532,,rds
+30,6171,"82521",user
+31,4551,"82521",user
+32,2611,"82521",user
+33,73358,"82521",user
+34,82265,"54198,1765,34446,82029",ec2
+35,69162,"54198,1765,34446,82029",ec2
+36,21252,"54198,1765,34446,82029",ec2
+37,6442,"54198,1765,34446,82029",ec2
+38,50906,"54198,1765,34446,82029",ec2
+39,34446,,redis
+40,54198,,redis
+41,82029,,redis
+42,1765,,rds
