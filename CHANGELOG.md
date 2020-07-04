@@ -1,5 +1,13 @@
 # Changelog
 
+## [[0.9.1]](https://grafana.com/api/plugins/agenty-flowcharting-panel/versions/0.9.1/download) - 2020-07-04
+### Added
+  - New initialization engine for drawio libs
+  
+### Fixed
+  - Fixed : Label position in shape [(issue #147)](https://github.com/algenty/grafana-flowcharting/issues/147)   
+  - Fixed : Initialization of first model
+
 ## [[0.9.0 SNAPSHOT]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-0.9.0-SNAPSHOT.zip) - 2020-05-31  
 ### Added
   - CSV Format support for flowchart source (https://drawio-app.com/import-from-csv-to-drawio/)
