@@ -12,6 +12,7 @@
   - Fixed : Display refresh between "edit mode" and "dashboard mode" in grafana v7 [(issue #205)](https://github.com/algenty/grafana-flowcharting/issues/205)  
   - Fixed :  zoom on text without witdth and height
   - Fixed : Disable select text when double click for zoom
+  - Fixed : retro compatibility with grafana 6.x
 
 ## [[0.9.0 SNAPSHOT]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-0.9.0-SNAPSHOT.zip) - 2020-05-31  
 ### Added
