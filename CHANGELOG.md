@@ -1,6 +1,6 @@
 # Changelog
 
-## [[1.0.0a SNAPSHOT]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-1.0.0a-SNAPSHOT.zip) - 2020-11-08
+## [[1.0.0a SNAPSHOT]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-1.0.0a-SNAPSHOT.zip) - 2020-12-06
 
 ### TODO
   - Disable anim not work
