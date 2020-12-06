@@ -1,5 +1,39 @@
 # Changelog
 
+## [[1.0.0a SNAPSHOT]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-1.0.0a-SNAPSHOT.zip) - 2020-11-08
+
+### TODO
+  - Disable anim not work
+  - message console size and color
+  - display zoom percent
+  - align icons
+### Added
+  - New initialization engine for drawio libs
+  - New draw.io libs (13.10.9)
+  - New notifier handler in panel.
+  - Change default url draw.io with https://embed.diagrams.net
+  - New edit design for grafana v7 ([See example](https://algenty.github.io/flowcharting-repository/images/rulesv7_ani.png?raw=true))
+  - New UX design and new concept "fast edit" :
+    - Can edit without expand rules and flowcharts with icons
+    - Advanced/detail mode on expand.
+  - Add shape name and properties in inspect console ([See example](https://algenty.github.io/flowcharting-repository/images/inspectv7_ani.png?raw=true))  
+  - Add gaugePos property in Event Mapping for the gauge draw.io models [See example](https://algenty.github.io/flowcharting-repository/images/gaugePos_ani.png?raw=true))  
+  - Plugin is signed
+  - Add Light theme support
+  - New thresholds on dates (accept units like d, w, m, y, h, s or a date)
+  - Can Enable/Disable each element.
+  - Colors (threshold and background) can be empty.
+  
+### Fixed
+  - Fixed : Inspect mode [(issue #209)](https://github.com/algenty/grafana-flowcharting/issues/209) ([See example](https://algenty.github.io/flowcharting-repository/images/inspectv7_ani.png?raw=true))  
+  - Fixed : Label position in shape [(issue #147)](https://github.com/algenty/grafana-flowcharting/issues/147)   
+  - Fixed : Initialization of first model
+  - Fixed : Display refresh between "edit mode" and "dashboard mode" in grafana v7 [(issue #205)](https://github.com/algenty/grafana-flowcharting/issues/205)  
+  - Fixed : zoom on text without witdth and height
+  - Fixed : Disable select text when double click for zoom
+  - Fixed : retro compatibility with grafana 6.x [(issue #218)](https://github.com/algenty/grafana-flowcharting/issues/218)  
+  - Fixed : Zoom with 2 or more FlowCharting [(issue #214)](https://github.com/algenty/grafana-flowcharting/issues/214)  
+  - Fixed : Background color edition in flowchart tab
 ## [[0.9.1b SNAPSHOT]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-0.9.1b-SNAPSHOT.zip) - 2020-11-08
 ### Added
   - New initialization engine for drawio libs
