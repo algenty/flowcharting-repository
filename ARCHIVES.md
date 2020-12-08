@@ -2,6 +2,7 @@
 
 | name | Date |
 |:---|:----:|
+|[agenty-flowcharting-panel-1.0.0b-SNAPSHOT.zip](archives/agenty-flowcharting-panel-1.0.0a-SNAPSHOT.zip)|2020-12-08|
 |[agenty-flowcharting-panel-1.0.0a-SNAPSHOT.zip](archives/agenty-flowcharting-panel-1.0.0a-SNAPSHOT.zip)|2020-12-06|
 |[agenty-flowcharting-panel-0.9.1b-SNAPSHOT.zip](archives/agenty-flowcharting-panel-0.9.1b-SNAPSHOT.zip)|2020-11-08|
 |[agenty-flowcharting-panel-0.9.0.zip](https://grafana.com/api/plugins/agenty-flowcharting-panel/versions/0.9.0/download)|2020-05-31|

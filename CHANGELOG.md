@@ -1,12 +1,14 @@
 # Changelog
 
-## [[1.0.0a SNAPSHOT]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-1.0.0a-SNAPSHOT.zip) - 2020-12-06
+## [[1.0.0b SNAPSHOT]](https://algenty.github.io/flowcharting-repository/archives/agenty-flowcharting-panel-1.0.0b-SNAPSHOT.zip) - 2020-12-08
 
 ### TODO
   - Disable anim not work
-  - message console size and color
   - display zoom percent
   - align icons
+  - Size of plugin
+  - Styles on firefox
+
 ### Added
   - New initialization engine for drawio libs
   - New draw.io libs (13.10.9)
@@ -16,11 +18,13 @@
   - New UX design and new concept "fast edit" :
     - Can edit without expand rules and flowcharts with icons
     - Advanced/detail mode on expand.
+    - Fast edit mode
   - Add shape name and properties in inspect console ([See example](https://algenty.github.io/flowcharting-repository/images/inspectv7_ani.png?raw=true))  
   - Add gaugePos property in Event Mapping for the gauge draw.io models [See example](https://algenty.github.io/flowcharting-repository/images/gaugePos_ani.png?raw=true))  
   - Plugin is signed
   - Add Light theme support
-  - New thresholds on dates (accept units like d, w, m, y, h, s or a date)
+  - New thresholds type : dates (accept units like d, w, m, y, h, s or a date)
+  - New event mapping operators
   - Can Enable/Disable each element.
   - Colors (threshold and background) can be empty.
   
